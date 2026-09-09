@@ -40,6 +40,8 @@ Geisteswissenschaften.
 > [**Zur
 > Zoom-Registrierung**](https://unibe-ch.zoom.us/meeting/register/uFe5RD96Sg2GyhhswH-l_A)
 >
+> <https://unibe-ch.zoom.us/meeting/register/uFe5RD96Sg2GyhhswH-l_A>
+>
 > *The lectures can also be followed online. **Registration is required
 > once**; the access link is then sent by e-mail.*
 
