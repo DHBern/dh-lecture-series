@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """Build the UniBE handout in two formats from the same source as the website.
 
-Both outputs come from 2026/_programm.qmd, the partial the website page also
-includes, so the handout cannot drift from the published programme.
+All outputs come from the partials in 2026/, which the website page also
+includes, so the handouts cannot drift from the published programme.
 
-  handout/dh-ringvorlesung-hs2026.md   plain Markdown for the UniBE CMS
-  handout/dh-ringvorlesung-hs2026.pdf  printable programme (Typst, no LaTeX needed)
+  handout/dh-ringvorlesung-hs2026.md        full programme, Markdown for the UniBE CMS
+  handout/dh-ringvorlesung-hs2026.pdf       full programme, printable (Typst, no LaTeX)
+  handout/dh-ringvorlesung-hs2026-kurz.md   short version: table and speakers only
+  handout/dh-ringvorlesung-hs2026-kurz.pdf  short version, printable
 
 Run with:  npm run handout
 """
@@ -18,12 +20,83 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
 SRC = HERE / "programm.qmd"
 MD = HERE / "dh-ringvorlesung-hs2026.md"
+SRC_SHORT = HERE / "programm-kurz.qmd"
+MD_SHORT = HERE / "dh-ringvorlesung-hs2026-kurz.md"
 
 
-def render(fmt: str) -> None:
-    print(f"  quarto render --to {fmt}")
+def build_speaker_list() -> Path:
+    """Derive a compact speaker list from the contributions partial.
+
+    Generated rather than written by hand so the short handout cannot drift
+    from the full programme.
+    """
+    src = ROOT / "2026" / "_beitraege.qmd"
+    lines = src.read_text(encoding="utf-8").split("\n")
+    entries = []
+    i = 0
+    while i < len(lines):
+        head = re.match(r"^### (?P<date>.+?) — (?P<title>.+?)\s*\{#t-\d+\}\s*$", lines[i])
+        if not head:
+            i += 1
+            continue
+        i += 1
+        while i < len(lines) and not lines[i].strip():
+            i += 1
+        byline = []
+        while i < len(lines) and lines[i].strip():
+            byline.append(lines[i].strip())
+            i += 1
+        raw = " ".join(byline)
+        lang = "Deutsch" if "lang-de" in raw else "Englisch" if "lang-en" in raw else ""
+        raw = re.sub(r"\[[^\]]*\]\{[^}]*\}", "", raw)          # drop the badge spans
+        fields = [f.strip(" ·") for f in raw.split("·")]
+        fields = [f for f in fields if f]
+        name = re.sub(r"\*\*", "", fields[0]).strip() if fields else ""
+        affiliation = fields[1] if len(fields) > 1 else ""
+        entries.append({
+            "date": head.group("date").strip(),
+            "title": head.group("title").strip(),
+            "name": name,
+            "affiliation": affiliation,
+            "lang": lang,
+        })
+
+    out = ["## Referentinnen und Referenten", ""]
+    for e in entries:
+        who = f"**{e['name']}**"
+        if e["affiliation"]:
+            who += f" · {e['affiliation']}"
+        out.append(who + "  ")
+        detail = f"*{e['title']}* — {e['date']}"
+        if e["lang"]:
+            detail += f", Vortragssprache: {e['lang']}"
+        out.append(detail)
+        out.append("")
+
+    target = HERE / "_referierende.qmd"
+    target.write_text("\n".join(out).rstrip() + "\n", encoding="utf-8")
+    print(f"  speaker list: {len(entries)} entries -> {target.name}")
+    return target
+
+
+def build_short_table() -> Path:
+    """Copy the programme table with its in-page links removed.
+
+    The short handout leaves out the contributions, so links to their
+    anchors would dangle (and Typst refuses to compile them).
+    """
+    src = (ROOT / "2026" / "_tabelle.qmd").read_text(encoding="utf-8")
+    src = re.sub(r"\[([^\]]+)\]\(#t-\d+\)", r"\1", src)
+    target = HERE / "_tabelle-kurz.qmd"
+    target.write_text(src, encoding="utf-8")
+    print(f"  programme table without anchors -> {target.name}")
+    return target
+
+
+def render(source: Path, fmt: str) -> None:
+    print(f"  quarto render {source.name} --to {fmt}")
     subprocess.run(
-        ["quarto", "render", str(SRC.relative_to(ROOT)), "--to", fmt],
+        ["quarto", "render", str(source.relative_to(ROOT)), "--to", fmt],
         cwd=ROOT, check=True, capture_output=True, text=True,
     )
 
@@ -55,24 +128,30 @@ def flatten_for_cms(text: str) -> str:
 
 
 def main() -> int:
-    render("gfm")
-    MD.write_text(flatten_for_cms(MD.read_text(encoding="utf-8")), encoding="utf-8")
-    render("typst")
+    build_speaker_list()
+    build_short_table()
 
-    leftovers = {
-        "raw <span>": "<span",
-        "GitHub alerts": "> [!",
-        "in-page anchors": "](#t-",
-    }
-    md = MD.read_text(encoding="utf-8")
-    bad = [name for name, needle in leftovers.items() if needle in md]
-    print(f"\n  {MD.name}  {MD.stat().st_size:,} bytes")
-    pdf = MD.with_suffix(".pdf")
-    print(f"  {pdf.name}  {pdf.stat().st_size:,} bytes")
-    if bad:
-        print("  ! still present in the Markdown:", ", ".join(bad))
+    docs = [(SRC, MD), (SRC_SHORT, MD_SHORT)]
+    for source, md in docs:
+        render(source, "gfm")
+        md.write_text(flatten_for_cms(md.read_text(encoding="utf-8")), encoding="utf-8")
+        render(source, "typst")
+
+    hostile = {"raw <span>": "<span", "GitHub alerts": "> [!", "in-page anchors": "](#t-"}
+    failed = False
+    print()
+    for _, md in docs:
+        pdf = md.with_suffix(".pdf")
+        print(f"  {md.name:<38} {md.stat().st_size:>8,} bytes")
+        print(f"  {pdf.name:<38} {pdf.stat().st_size:>8,} bytes")
+        text = md.read_text(encoding="utf-8")
+        bad = [name for name, needle in hostile.items() if needle in text]
+        if bad:
+            print(f"  ! {md.name}: still present -> {', '.join(bad)}")
+            failed = True
+    if failed:
         return 1
-    print("  Markdown is clean for the CMS.")
+    print("\n  Both Markdown files are clean for the CMS.")
     return 0
 
 

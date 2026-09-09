@@ -1,0 +1,21 @@
+## Organisatorisches {#organisatorisches}
+
+|  |  |
+|--------------------------|----------------------------------------------|
+| **Semester** | Herbstsemester 2026 (HS 2026) |
+| **Tag** | Montags |
+| **Vorlesung** | 14:00–16:00 Uhr |
+| **Workshop** | 16:00–18:00 Uhr an ausgewählten Daten; Teilnahme wird erwartet |
+| **Ort** | Seminarraum **F-122**, Hörraumgebäude Unitobler, Lerchenweg 36 |
+| **Erster Termin** | 14. September 2026 |
+| **Letzter Termin** | 7. Dezember 2026 |
+| **Sprachen** | Deutsch und Englisch, mit Übersetzungen der Abstracts |
+| **Online** | [Zoom — Registrierung erforderlich](https://unibe-ch.zoom.us/meeting/register/uFe5RD96Sg2GyhhswH-l_A) |
+| **Programm** | hier und auf [dh.unibe.ch](https://www.dh.unibe.ch/studium/lehrveranstaltungen/aktuell/index_ger.html) |
+
+::: {.callout-warning title="Das Programm kann sich noch ändern"}
+Einzelne Titel und Abstracts sind noch provisorisch und als Arbeitstitel gekennzeichnet. Diese
+Seite wird laufend aktualisiert; die
+[Versionsgeschichte](https://github.com/DHBern/dh-lecture-series/commits/main) zeigt, was wann
+geändert wurde.
+:::
