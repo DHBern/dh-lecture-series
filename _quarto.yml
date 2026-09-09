@@ -7,6 +7,8 @@ project:
   resources:
     - handout/dh-ringvorlesung-hs2026.pdf
     - handout/dh-ringvorlesung-hs2026.md
+    - handout/dh-ringvorlesung-hs2026-kurz.pdf
+    - handout/dh-ringvorlesung-hs2026-kurz.md
 
 website:
   title: 'DH Ringvorlesung'

@@ -20,14 +20,17 @@ sub-pages by design.
 
 ## Handout for the UniBE website
 
-The programme is also published as plain Markdown (for the UniBE CMS) and as a PDF:
+The programme is also published as plain Markdown (for the UniBE CMS) and as a PDF, in a full
+and a short variant:
 
-- `handout/dh-ringvorlesung-hs2026.md`
-- `handout/dh-ringvorlesung-hs2026.pdf`
+|                                | Markdown                                  | PDF                                                |
+| ------------------------------ | ----------------------------------------- | -------------------------------------------------- |
+| Full programme, all abstracts  | `handout/dh-ringvorlesung-hs2026.md`      | `handout/dh-ringvorlesung-hs2026.pdf` (11 pp.)     |
+| Short: table and speakers only | `handout/dh-ringvorlesung-hs2026-kurz.md` | `handout/dh-ringvorlesung-hs2026-kurz.pdf` (3 pp.) |
 
-Both are generated from `2026/_programm.qmd` — the same partial the website page includes — so
-they cannot drift from the published programme. Regenerate them after any change to the
-programme:
+All four are generated from the partials in `2026/` that the website page also includes, so they
+cannot drift from the published programme. The speaker list and the link-free programme table
+used by the short variant are themselves derived at build time. Regenerate after any change:
 
 ```bash
 npm run handout

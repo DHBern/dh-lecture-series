@@ -1,3 +1,7 @@
 # Build output — regenerate with `npm run handout`, do not hand-format
 handout/dh-ringvorlesung-hs2026.md
 handout/dh-ringvorlesung-hs2026.pdf
+handout/dh-ringvorlesung-hs2026-kurz.md
+handout/dh-ringvorlesung-hs2026-kurz.pdf
+handout/_referierende.qmd
+handout/_tabelle-kurz.qmd

@@ -1,0 +1,28 @@
+## Referentinnen und Referenten
+
+**Digital Humanities Bern**  
+*Vorstellung der Ringvorlesung und des Studienprogramms* — 14. September, Vortragssprache: Deutsch
+
+**Andreas Weilinghof** · Universität Koblenz  
+*Automatische Spracherkennung mit Whisper* — 21. September, Vortragssprache: Deutsch
+
+**Florian Busch** · SNF-Projekt «Texting in Time», Universität Bern  
+*Vom Screenrecording zum Keylog* — 28. September, Vortragssprache: Deutsch
+
+**Annemieke Romein** · University of Twente, Enschede  
+*HAICu: Co-Creating Meaningful (X)AI with Cultural Heritage Partners* — 05. Oktober, Vortragssprache: Englisch
+
+**Kathryn Rudy** · University of St Andrews, Scotland  
+*Manuscript Studies* — 12. Oktober, Vortragssprache: Englisch
+
+**Prof. Dr. Evelyn Gius** · Technische Universität Darmstadt  
+*Messunsicherheit als epistemische Ressource in den Digital Humanities* — 02. November, Vortragssprache: Deutsch
+
+**Estelle Guéville** · Yale University, USA  
+*Making Women's Manuscript Production Count* — 09. November, Vortragssprache: Englisch
+
+**Timon Boehm** · Universität Stuttgart  
+*TOPTEXT: Topologien des Textes* — 16. November, Vortragssprache: Deutsch
+
+**William Mattingly** · Yale University, USA  
+*Visual Language Models* — 07. Dezember, Vortragssprache: Englisch

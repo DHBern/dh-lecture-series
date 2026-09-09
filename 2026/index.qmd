@@ -26,13 +26,25 @@ license:
 # DH Ringvorlesung — Herbstsemester 2026
 
 ::: {.callout-tip title="Programm zum Mitnehmen"}
-[**PDF herunterladen**](/handout/dh-ringvorlesung-hs2026.pdf) ·
-[Markdown](/handout/dh-ringvorlesung-hs2026.md) für die Übernahme in andere Systeme.
-Beide werden aus derselben Quelle erzeugt wie diese Seite und sind damit immer auf demselben
-Stand.
+**Vollständiges Programm mit allen Abstracts**
+[PDF](/handout/dh-ringvorlesung-hs2026.pdf) ·
+[Markdown](/handout/dh-ringvorlesung-hs2026.md)
+
+**Kurzfassung — nur Programmübersicht und Referierende**
+[PDF](/handout/dh-ringvorlesung-hs2026-kurz.pdf) ·
+[Markdown](/handout/dh-ringvorlesung-hs2026-kurz.md)
+
+Alle vier werden aus derselben Quelle erzeugt wie diese Seite und sind damit immer auf
+demselben Stand.
 :::
 
-{{< include _programm.qmd >}}
+{{< include _kopf.qmd >}}
+
+{{< include _tabelle.qmd >}}
+
+{{< include _beitraege.qmd >}}
+
+{{< include _organisatorisches.qmd >}}
 
 ## Weitere Lehrveranstaltungen der DH Bern
 

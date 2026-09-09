@@ -1,41 +1,42 @@
 ---
 title: 'DH Ringvorlesung'
-subtitle: 'Herbstsemester 2026 — Programm'
+subtitle: 'Herbstsemester 2026 — Programmübersicht'
 lang: de-CH
 date: last-modified
 date-format: 'D. MMMM YYYY'
 author: 'Digital Humanities, Universität Bern'
 format:
   gfm:
-    output-file: 'dh-ringvorlesung-hs2026'
+    output-file: 'dh-ringvorlesung-hs2026-kurz'
     output-ext: 'md'
     toc: false
-    variant: +yaml_metadata_block-yaml_metadata_block
   typst:
-    output-file: 'dh-ringvorlesung-hs2026'
+    output-file: 'dh-ringvorlesung-hs2026-kurz'
     output-ext: 'pdf'
-    toc: true
-    toc-title: 'Inhalt'
+    toc: false
     papersize: a4
     margin:
       x: 2.2cm
-      y: 2.2cm
+      y: 2cm
     fontsize: 10pt
     mainfont: 'Helvetica Neue'
 ---
 
 {{< include ../2026/_kopf.qmd >}}
 
-{{< include ../2026/_tabelle.qmd >}}
+{{< include _tabelle-kurz.qmd >}}
 
-{{< include ../2026/_beitraege.qmd >}}
+{{< include _referierende.qmd >}}
 
 {{< include ../2026/_organisatorisches.qmd >}}
+
+## Abstracts
+
+Die vollständigen Abstracts zu allen Beiträgen stehen auf der Kursseite:
+<https://dhbern.github.io/dh-lecture-series/2026/>
 
 ## Kontakt
 
 Universität Bern · Walter Benjamin Kolleg / Digital Humanities · Muesmattstrasse 45 · 3012 Bern
 
 digitalhumanities\@unibe.ch · <https://www.dh.unibe.ch/>
-
-Laufend aktualisierte Fassung: <https://dhbern.github.io/dh-lecture-series/2026/>
