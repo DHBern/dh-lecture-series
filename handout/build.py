@@ -12,6 +12,8 @@ includes, so the handouts cannot drift from the published programme.
 Run with:  npm run handout
 """
 import re
+from datetime import date
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -22,6 +24,36 @@ SRC = HERE / "programm.qmd"
 MD = HERE / "dh-ringvorlesung-hs2026.md"
 SRC_SHORT = HERE / "programm-kurz.qmd"
 MD_SHORT = HERE / "dh-ringvorlesung-hs2026-kurz.md"
+
+
+MONTHS_DE = ["Januar", "Februar", "März", "April", "Mai", "Juni",
+             "Juli", "August", "September", "Oktober", "November", "Dezember"]
+
+
+def build_date_line() -> Path:
+    """Write the 'Stand:' line.
+
+    The date cannot come from the front matter: any date there makes Quarto
+    render its own title block above our logos.
+    """
+    today = date.today()
+    line = (f"Digital Humanities, Universität Bern · "
+            f"Stand: {today.day}. {MONTHS_DE[today.month - 1]} {today.year}")
+    target = HERE / "_stand.qmd"
+    target.write_text(line + "\n", encoding="utf-8")
+    return target
+
+
+def stage_logos() -> None:
+    """Copy the logos beside the Typst source.
+
+    Typst refuses to read files above the directory it compiles in, so the
+    handout cannot reference ../logo.png. The repo root keeps the originals;
+    these copies are refreshed on every build.
+    """
+    for name in ("logo-unibe.png", "logo.png"):
+        shutil.copyfile(ROOT / name, HERE / name)
+    print("  logos staged for Typst")
 
 
 def build_speaker_list() -> Path:
@@ -128,6 +160,8 @@ def flatten_for_cms(text: str) -> str:
 
 
 def main() -> int:
+    stage_logos()
+    build_date_line()
     build_speaker_list()
     build_short_table()
 
