@@ -1,0 +1,8 @@
+contact_links:
+  - name: Are you looking for documentation on dh-lecture-series?
+    url: https://DHBern.github.io/dh-lecture-series
+    about: Please see the documentation for dh-lecture-series on its GitHub Pages page.
+  - name: Do want to discuss dh-lecture-series with the community?
+    url: https://github.com/DHBern/dh-lecture-series/discussions
+    about: Please see the discussions page for dh-lecture-series.
+blank_issues_enabled: true

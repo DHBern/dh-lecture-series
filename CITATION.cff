@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: 'DH Ringvorlesung — Lecture Series Website'
+message: >-
+  If you use these materials, please cite them using the metadata from this file.
+type: dataset
+authors:
+  - given-names: Tobias
+    family-names: Hodel
+    email: tobias.hodel@unibe.ch
+    affiliation: University of Bern
+    orcid: 'https://orcid.org/0000-0002-2071-6407'
+repository-code: 'https://github.com/DHBern/dh-lecture-series/'
+url: 'https://dhbern.github.io/dh-lecture-series/'
+abstract: >-
+  Website of the Digital Humanities lecture series (Ringvorlesung) at the University of Bern,
+  autumn semester 2026. Speakers from history, linguistics, art history and digital humanities
+  present current work on the theory and practice of digital methods. Lectures run on Mondays
+  from 14:00 to 16:00, with workshops from 16:00 to 18:00 on selected dates. The series is held
+  in German and English.
+keywords:
+  - Digital Humanities
+  - Lecture Series
+  - Teaching
+  - University of Bern
+license: CC-BY-SA-4.0
+version: 0.1.0
+date-released: '2026-09-09'
