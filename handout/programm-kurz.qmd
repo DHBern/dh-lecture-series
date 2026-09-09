@@ -1,10 +1,5 @@
 ---
-title: 'DH Ringvorlesung'
-subtitle: 'Herbstsemester 2026 — Programmübersicht'
 lang: de-CH
-date: last-modified
-date-format: 'D. MMMM YYYY'
-author: 'Digital Humanities, Universität Bern'
 format:
   gfm:
     output-file: 'dh-ringvorlesung-hs2026-kurz'
@@ -21,6 +16,20 @@ format:
     fontsize: 10pt
     mainfont: 'Helvetica Neue'
 ---
+
+::: {.content-visible when-format="typst"}
+::: {layout-ncol="2" layout-valign="bottom"}
+![](logo-unibe.png){width="26mm" fig-alt="Universität Bern"}
+
+![](logo.png){width="42mm" fig-alt="Digital Humanities, Universität Bern"}
+:::
+
+# DH Ringvorlesung
+
+**Herbstsemester 2026 — Programmübersicht**
+
+{{< include _stand.qmd >}}
+:::
 
 {{< include ../2026/_kopf.qmd >}}
 

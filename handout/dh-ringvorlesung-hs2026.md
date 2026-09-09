@@ -1,6 +1,4 @@
-# DH Ringvorlesung
-Digital Humanities, Universität Bern
-9. September 2026
+
 
 **Montags · Vorlesung 14–16 Uhr · Workshop 16–18 Uhr · Seminarraum
 F-122, Hörraumgebäude Unitobler**
