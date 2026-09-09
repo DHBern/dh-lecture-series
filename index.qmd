@@ -1,0 +1,24 @@
+---
+pagetitle: 'DH Ringvorlesung'
+lang: de-CH
+toc: false
+---
+
+# DH Ringvorlesung
+
+Ringvorlesung der Digital Humanities an der Universität Bern. Referierende aus Geschichte,
+Sprachwissenschaften, Kunstgeschichte und Digital Humanities geben Einblicke in die
+Theoretisierung und Umsetzung digitaler Methoden.
+
+*Lecture series of the Digital Humanities at the University of Bern, held in German and
+English.*
+
+## Ausgaben
+
+-   [**Herbstsemester 2026**](2026/index.qmd) — montags, Vorlesung 14–16 Uhr, Workshop 16–18 Uhr
+
+## Weitere Lehrveranstaltungen
+
+-   [Introduction to Digital Humanities](https://dhbern.github.io/introduction-to-dh/)
+-   [DH Lab](https://dhbern.github.io/dh-lab/)
+-   [Digital Humanities Bern](https://www.dh.unibe.ch/)

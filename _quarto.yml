@@ -1,0 +1,61 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: 'DH Ringvorlesung'
+  favicon: favicon.ico
+  open-graph: true
+  twitter-card: true
+  site-url: https://dhbern.github.io/dh-lecture-series/
+  repo-url: https://github.com/DHBern/dh-lecture-series/
+  issue-url: https://github.com/DHBern/dh-lecture-series/issues/new/choose
+  repo-actions: [edit, issue]
+  page-navigation: false
+  bread-crumbs: false
+  back-to-top-navigation: true
+
+  navbar:
+    logo: logo.png
+    logo-alt: 'Digital Humanities, Universität Bern'
+    logo-href: 'https://www.dh.unibe.ch/'
+    search: false
+    tools:
+      - icon: github
+        url: https://github.com/DHBern/dh-lecture-series/
+    left:
+      - href: 2026/index.qmd
+        text: 'HS 2026'
+      - href: 2026/index.qmd#programm
+        text: Programm
+      - href: 2026/index.qmd#beitraege
+        text: Beiträge
+      - href: 2026/index.qmd#organisatorisches
+        text: Organisatorisches
+    right:
+      - href: https://dhbern.github.io/introduction-to-dh/
+        text: 'Introduction to DH ↗'
+      - href: https://dhbern.github.io/dh-lab/
+        text: 'DH Lab ↗'
+
+  page-footer:
+    left: '[Digital Humanities, Universität Bern](https://www.dh.unibe.ch/)'
+    center: '[digitalhumanities@unibe.ch](mailto:digitalhumanities@unibe.ch)'
+    right: '[Lehrveranstaltungen](https://www.dh.unibe.ch/studium/lehrveranstaltungen/aktuell/index_ger.html)'
+
+format:
+  html:
+    link-external-icon: true
+    link-external-newwindow: true
+    toc: true
+    toc-depth: 3
+    toc-title: 'Auf dieser Seite'
+    theme: cosmo
+    code-copy: true
+    code-overflow: wrap
+    css: styles.css
+    page-layout: full
+
+freeze: false
+
+editor: visual
