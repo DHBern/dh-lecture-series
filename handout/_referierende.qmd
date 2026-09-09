@@ -1,7 +1,7 @@
 ## Referentinnen und Referenten
 
 **Digital Humanities Bern**  
-*Vorstellung der Ringvorlesung und des Studienprogramms* — 14. September, Vortragssprache: Deutsch
+*Introducing the Lecture Series and the Study Programme* — 14. September, Vortragssprache: Englisch
 
 **Andreas Weilinghof** · Universität Koblenz  
 *Automatische Spracherkennung mit Whisper* — 21. September, Vortragssprache: Deutsch

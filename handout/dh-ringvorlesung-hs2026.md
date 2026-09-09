@@ -51,7 +51,7 @@ publiziert, sobald es definitiv ist.
 
 | Datum | Referent:in | Vorlesung 14–16 | Workshop 16–18 |
 |:---|:---|:---|:---|
-| **14. Sept.** | Digital Humanities Bern | Vorstellung der Ringvorlesung und des Studienprogramms | Introduction to Blogging (Leo Mader) |
+| **14. Sept.** | Digital Humanities Bern | Introducing the Lecture Series and the Study Programme | Introduction to Blogging (Leo Mader) |
 | **21. Sept.** | Andreas Weilinghof · Koblenz | Automatische Spracherkennung mit Whisper | Whisper-Workshop |
 | **28. Sept.** | Florian Busch · Bern | Vom Screenrecording zum Keylog | Anonymisierungswerkzeug des Data Science Lab |
 | **05. Okt.** | Annemieke Romein · Twente | HAICu — Co-Creating Meaningful (X)AI | HISTMET und Annif |
@@ -67,17 +67,31 @@ publiziert, sobald es definitiv ist.
 
 ## Die Beiträge
 
-### 14. September — Vorstellung der Ringvorlesung und des Studienprogramms
+### 14. September — Introducing the Lecture Series and the Study Programme
 
-**Digital Humanities Bern** · Vortragssprache: Deutsch
+**Digital Humanities Bern** · Vortragssprache: Englisch
 
-Zum Auftakt stellen sich die Digital Humanities an der Universität Bern
-vor: was wir tun und wie wir es tun. Ergänzend wird das Studienprogramm
-vorgestellt — Major und Minor sowie die Anschlussmöglichkeiten, die sich
-daraus ergeben.
+The series opens with an introduction to Digital Humanities at the
+University of Bern: what we do and how we do it. The study programme is
+presented alongside it — the Major and the Minor, and where they can
+lead afterwards.
 
-**Workshop 16–18 Uhr: Introduction to Blogging** — mit Leo Mader.
-Einführung ins wissenschaftliche Bloggen als Publikationsform.
+**Workshop 16–18: Introduction to Blogging** — with Leo Mader. An
+introduction to scholarly blogging as a form of publication.
+
+> **Deutsche Übersetzung**
+>
+> **Vorstellung der Ringvorlesung und des Studienprogramms**
+>
+> Zum Auftakt stellen sich die Digital Humanities an der Universität
+> Bern vor: was wir tun und wie wir es tun. Ergänzend wird das
+> Studienprogramm vorgestellt — Major und Minor sowie die
+> Anschlussmöglichkeiten, die sich daraus ergeben.
+>
+> **Workshop 16–18 Uhr: Introduction to Blogging** — mit Leo Mader.
+> Einführung ins wissenschaftliche Bloggen als Publikationsform.
+>
+> *Inoffizielle Übersetzung.*
 
 ### 21. September — Automatische Spracherkennung mit Whisper
 
