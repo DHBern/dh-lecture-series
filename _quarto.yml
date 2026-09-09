@@ -1,6 +1,12 @@
 project:
   type: website
   output-dir: _site
+  render:
+    - index.qmd
+    - 2026/index.qmd
+  resources:
+    - handout/dh-ringvorlesung-hs2026.pdf
+    - handout/dh-ringvorlesung-hs2026.md
 
 website:
   title: 'DH Ringvorlesung'
