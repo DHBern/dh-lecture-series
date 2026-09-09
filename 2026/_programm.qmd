@@ -29,6 +29,8 @@ nötig; der Zugangslink wird anschliessend per E-Mail zugestellt.
 
 [**Zur Zoom-Registrierung**](https://unibe-ch.zoom.us/meeting/register/uFe5RD96Sg2GyhhswH-l_A)
 
+[<https://unibe-ch.zoom.us/meeting/register/uFe5RD96Sg2GyhhswH-l_A>]{.content-visible unless-format="html"}
+
 *The lectures can also be followed online. **Registration is required once**; the access link is
 then sent by e-mail.*
 ::::
