@@ -51,7 +51,7 @@ publiziert, sobald es definitiv ist.
 
 | Datum | Referent:in | Vorlesung 14–16 | Workshop 16–18 |
 |:---|:---|:---|:---|
-| **14. Sept.** | Digital Humanities Bern | Vorstellung der Ringvorlesung und des Studienprogramms | Introduction to Blogging (Leo Mader) |
+| **14. Sept.** | Digital Humanities Bern | Introducing the Lecture Series and the Study Programme | Introduction to Blogging (Leo Mader) |
 | **21. Sept.** | Andreas Weilinghof · Koblenz | Automatische Spracherkennung mit Whisper | Whisper-Workshop |
 | **28. Sept.** | Florian Busch · Bern | Vom Screenrecording zum Keylog | Anonymisierungswerkzeug des Data Science Lab |
 | **05. Okt.** | Annemieke Romein · Twente | HAICu — Co-Creating Meaningful (X)AI | HISTMET und Annif |
@@ -68,8 +68,8 @@ publiziert, sobald es definitiv ist.
 ## Referentinnen und Referenten
 
 **Digital Humanities Bern**  
-*Vorstellung der Ringvorlesung und des Studienprogramms* — 14.
-September, Vortragssprache: Deutsch
+*Introducing the Lecture Series and the Study Programme* — 14.
+September, Vortragssprache: Englisch
 
 **Andreas Weilinghof** · Universität Koblenz  
 *Automatische Spracherkennung mit Whisper* — 21. September,

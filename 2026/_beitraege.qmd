@@ -1,8 +1,18 @@
 ## Die Beiträge {#beitraege}
 
-### 14. September — Vorstellung der Ringvorlesung und des Studienprogramms {#t-0914}
+### 14. September — Introducing the Lecture Series and the Study Programme {#t-0914}
 
-**Digital Humanities Bern** · [Deutsch]{.lang-badge .lang-de .content-visible when-format="html"}[Vortragssprache: Deutsch]{.content-visible unless-format="html"}
+**Digital Humanities Bern** · [English]{.lang-badge .lang-en .content-visible when-format="html"}[Vortragssprache: Englisch]{.content-visible unless-format="html"}
+
+The series opens with an introduction to Digital Humanities at the University of Bern: what we
+do and how we do it. The study programme is presented alongside it — the Major and the Minor,
+and where they can lead afterwards.
+
+**Workshop 16–18: Introduction to Blogging** — with Leo Mader. An introduction to scholarly
+blogging as a form of publication.
+
+::: {.callout-tip title="Deutsche Übersetzung" collapse="true"}
+**Vorstellung der Ringvorlesung und des Studienprogramms**
 
 Zum Auftakt stellen sich die Digital Humanities an der Universität Bern vor: was wir tun und wie
 wir es tun. Ergänzend wird das Studienprogramm vorgestellt — Major und Minor sowie die
@@ -10,6 +20,9 @@ Anschlussmöglichkeiten, die sich daraus ergeben.
 
 **Workshop 16–18 Uhr: Introduction to Blogging** — mit Leo Mader. Einführung ins
 wissenschaftliche Bloggen als Publikationsform.
+
+*Inoffizielle Übersetzung.*
+:::
 
 ### 21. September — Automatische Spracherkennung mit Whisper {#t-0921}
 
