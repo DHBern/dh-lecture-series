@@ -1,5 +1,5 @@
 ---
-title: "Welcome to the DH Lecture Series, Autumn 2026"
+title: 'Welcome to the DH Lecture Series, Autumn 2026'
 target: einblicke.hypotheses.org
 language: English
 status: draft — please check the three provisional titles before publishing
@@ -7,7 +7,7 @@ status: draft — please check the three provisional titles before publishing
 
 # Welcome to the DH Lecture Series, Autumn 2026
 
-Welcome to this year's *Ringvorlesung* of the Digital Humanities at the University of Bern. In
+Welcome to this year's _Ringvorlesung_ of the Digital Humanities at the University of Bern. In
 this post we present the programme for the autumn semester 2026.
 
 Speakers from history, linguistics, art history and digital humanities offer insights into how
@@ -26,17 +26,17 @@ translation into the other.
 
 ## Programme
 
-| Date | Speaker | Title |
-|:--|:--|:--|
-| 14.09.2026 | Digital Humanities Bern | Introducing the Lecture Series and the Study Programme — *workshop: Introduction to Blogging (Leo Mader)* |
-| 21.09.2026 | Andreas Weilinghof (Universität Koblenz) | Automatic Speech Recognition with Whisper — *with workshop* |
-| 28.09.2026 | Florian Busch (Universität Bern) | Vom Screenrecording zum Keylog: Videobasierte Rekonstruktion von Schreibprozessen in mobiler Messenger-Kommunikation — *workshop: anonymisation tool of the Data Science Lab* |
-| 05.10.2026 | Annemieke Romein (University of Twente) | HAICu: Co-Creating Meaningful (X)AI with Cultural Heritage Partners — *workshop: HISTMET and Annif* |
-| 12.10.2026 | Kathryn Rudy (University of St Andrews) | Manuscript Studies |
-| 02.11.2026 | Evelyn Gius (TU Darmstadt) | Messunsicherheit als epistemische Ressource in den Digital Humanities |
-| 09.11.2026 | Estelle Guéville (Yale University) | Making Women's Manuscript Production Count: Quantitative Approaches to Medieval Scribal Culture — *workshop: From Manuscripts to Data* |
-| 16.11.2026 | Timon Boehm (Universität Stuttgart) | TOPTEXT: Topological Text Analysis via Embedded Flow Graphs |
-| 07.12.2026 | William Mattingly (Yale University) | Visual Language Models — *with workshop* |
+| Date       | Speaker                                  | Title                                                                                                                                                                         |
+| :--------- | :--------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 14.09.2026 | Digital Humanities Bern                  | Introducing the Lecture Series and the Study Programme — _workshop: Introduction to Blogging (Leo Mader)_                                                                     |
+| 21.09.2026 | Andreas Weilinghof (Universität Koblenz) | Automatic Speech Recognition with Whisper — _with workshop_                                                                                                                   |
+| 28.09.2026 | Florian Busch (Universität Bern)         | Vom Screenrecording zum Keylog: Videobasierte Rekonstruktion von Schreibprozessen in mobiler Messenger-Kommunikation — _workshop: anonymisation tool of the Data Science Lab_ |
+| 05.10.2026 | Annemieke Romein (University of Twente)  | HAICu: Co-Creating Meaningful (X)AI with Cultural Heritage Partners — _workshop: HISTMET and Annif_                                                                           |
+| 12.10.2026 | Kathryn Rudy (University of St Andrews)  | Manuscript Studies                                                                                                                                                            |
+| 02.11.2026 | Evelyn Gius (TU Darmstadt)               | Messunsicherheit als epistemische Ressource in den Digital Humanities                                                                                                         |
+| 09.11.2026 | Estelle Guéville (Yale University)       | Making Women's Manuscript Production Count: Quantitative Approaches to Medieval Scribal Culture — _workshop: From Manuscripts to Data_                                        |
+| 16.11.2026 | Timon Boehm (Universität Stuttgart)      | TOPTEXT: Topological Text Analysis via Embedded Flow Graphs                                                                                                                   |
+| 07.12.2026 | William Mattingly (Yale University)      | Visual Language Models — _with workshop_                                                                                                                                      |
 
 There is no lecture on 19 and 26 October, on 23 November (Zibelemärit) or on 30 November.
 
@@ -60,7 +60,7 @@ as a [short overview](https://dhbern.github.io/dh-lecture-series/handout/dh-ring
 of the programme and the speakers.
 
 The same site now also documents the previous editions of the series, from HS 2020 onwards,
-with a search across every contribution the *Ringvorlesung* has ever had:
+with a search across every contribution the _Ringvorlesung_ has ever had:
 
 👉 **<https://dhbern.github.io/dh-lecture-series/>**
 
