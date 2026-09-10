@@ -52,15 +52,15 @@ publiziert, sobald es definitiv ist.
 | Datum | Referent:in | Vorlesung 14–16 | Workshop 16–18 |
 |:---|:---|:---|:---|
 | **14. Sept.** | Digital Humanities Bern | Introducing the Lecture Series and the Study Programme | Introduction to Blogging (Leo Mader) |
-| **21. Sept.** | Andreas Weilinghof · Koblenz | Automatische Spracherkennung mit Whisper | Whisper-Workshop |
-| **28. Sept.** | Florian Busch · Bern | Vom Screenrecording zum Keylog | Anonymisierungswerkzeug des Data Science Lab |
+| **21. Sept.** | Andreas Weilinghof · Koblenz | Automatische Spracherkennung mit Whisper / *Automatic Speech Recognition with Whisper* | Whisper-Workshop |
+| **28. Sept.** | Florian Busch · Bern | Vom Screenrecording zum Keylog / *From Screen Recording to Keylog* | Anonymisierungswerkzeug des Data Science Lab |
 | **05. Okt.** | Annemieke Romein · Twente | HAICu — Co-Creating Meaningful (X)AI | HISTMET und Annif |
 | **12. Okt.** | Kathryn Rudy · St Andrews | Manuscript Studies | — |
 | 19\. Okt. | *keine Vorlesung* | — | — |
 | 26\. Okt. | *keine Vorlesung* | — | — |
-| **02. Nov.** | Evelyn Gius · Darmstadt | Messunsicherheit als epistemische Ressource | — |
+| **02. Nov.** | Evelyn Gius · Darmstadt | Messunsicherheit als epistemische Ressource / *Measurement Uncertainty as an Epistemic Resource* | — |
 | **09. Nov.** | Estelle Guéville · Yale | Making Women’s Manuscript Production Count | From Manuscripts to Data |
-| **16. Nov.** | Timon Boehm · Stuttgart | TOPTEXT — Topologien des Textes | — |
+| **16. Nov.** | Timon Boehm · Stuttgart | TOPTEXT — Topologien des Textes / *TOPTEXT: Topologies of Text* | — |
 | 23\. Nov. | *keine Vorlesung* | — | *(Zibelemärit)* |
 | 30\. Nov. | *keine Vorlesung* | — | — |
 | **07. Dez.** | William Mattingly · Yale | Visual Language Models | Visual Language Models |
@@ -72,12 +72,13 @@ publiziert, sobald es definitiv ist.
 September, Vortragssprache: Englisch
 
 **Andreas Weilinghof** · Universität Koblenz  
-*Automatische Spracherkennung mit Whisper* — 21. September,
-Vortragssprache: Deutsch
+*Automatische Spracherkennung mit Whisper* / *Automatic Speech
+Recognition with Whisper* — 21. September, Vortragssprache: Deutsch
 
 **Florian Busch** · SNF-Projekt «Texting in Time», Universität Bern  
-*Vom Screenrecording zum Keylog* — 28. September, Vortragssprache:
-Deutsch
+*Vom Screenrecording zum Keylog* / *From Screen Recording to Keylog:
+Video-Based Reconstruction of Writing Processes in Mobile Messenger
+Communication* — 28. September, Vortragssprache: Deutsch
 
 **Annemieke Romein** · University of Twente, Enschede  
 *HAICu: Co-Creating Meaningful (X)AI with Cultural Heritage Partners* —
@@ -88,15 +89,16 @@ Deutsch
 
 **Prof. Dr. Evelyn Gius** · Technische Universität Darmstadt  
 *Messunsicherheit als epistemische Ressource in den Digital Humanities*
-— 02. November, Vortragssprache: Deutsch
+/ *Measurement Uncertainty as an Epistemic Resource in the Digital
+Humanities* — 02. November, Vortragssprache: Deutsch
 
 **Estelle Guéville** · Yale University, USA  
 *Making Women’s Manuscript Production Count* — 09. November,
 Vortragssprache: Englisch
 
 **Timon Boehm** · Universität Stuttgart  
-*TOPTEXT: Topologien des Textes* — 16. November, Vortragssprache:
-Deutsch
+*TOPTEXT: Topologien des Textes* / *TOPTEXT: Topological Text Analysis
+via Embedded Flow Graphs* — 16. November, Vortragssprache: Deutsch
 
 **William Mattingly** · Yale University, USA  
 *Visual Language Models* — 07. Dezember, Vortragssprache: Englisch

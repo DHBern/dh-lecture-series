@@ -3,15 +3,17 @@
 | Datum | Referent:in | Vorlesung 14–16 | Workshop 16–18 |
 |:--|:--|:--|:--|
 | **14. Sept.** | Digital Humanities Bern | [Introducing the Lecture Series and the Study Programme](#t-0914) | Introduction to Blogging (Leo Mader) |
-| **21. Sept.** | Andreas Weilinghof · Koblenz | [Automatische Spracherkennung mit Whisper](#t-0921) | Whisper-Workshop |
-| **28. Sept.** | Florian Busch · Bern | [Vom Screenrecording zum Keylog](#t-0928) | Anonymisierungswerkzeug des Data Science Lab |
+| **21. Sept.** | Andreas Weilinghof · Koblenz | [Automatische Spracherkennung mit Whisper](#t-0921) / *Automatic Speech Recognition with Whisper* | Whisper-Workshop |
+| **28. Sept.** | Florian Busch · Bern | [Vom Screenrecording zum Keylog](#t-0928) / *From Screen Recording to Keylog* | Anonymisierungswerkzeug des Data Science Lab |
 | **05. Okt.** | Annemieke Romein · Twente | [HAICu — Co-Creating Meaningful (X)AI](#t-1005) | HISTMET und Annif |
 | **12. Okt.** | Kathryn Rudy · St Andrews | [Manuscript Studies](#t-1012) | — |
 | 19. Okt. | *keine Vorlesung* | — | — |
 | 26. Okt. | *keine Vorlesung* | — | — |
-| **02. Nov.** | Evelyn Gius · Darmstadt | [Messunsicherheit als epistemische Ressource](#t-1102) | — |
+| **02. Nov.** | Evelyn Gius · Darmstadt | [Messunsicherheit als epistemische Ressource](#t-1102) / *Measurement Uncertainty as an Epistemic Resource* | — |
 | **09. Nov.** | Estelle Guéville · Yale | [Making Women's Manuscript Production Count](#t-1109) | From Manuscripts to Data |
-| **16. Nov.** | Timon Boehm · Stuttgart | [TOPTEXT — Topologien des Textes](#t-1116) | — |
+| **16. Nov.** | Timon Boehm · Stuttgart | [TOPTEXT — Topologien des Textes](#t-1116) / *TOPTEXT: Topologies of Text* | — |
 | 23. Nov. | *keine Vorlesung* | — | *(Zibelemärit)* |
 | 30. Nov. | *keine Vorlesung* | — | — |
 | **07. Dez.** | William Mattingly · Yale | [Visual Language Models](#t-1207) | Visual Language Models |
+
+: {tbl-colwidths="[13,21,40,26]"}

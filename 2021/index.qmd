@@ -1,0 +1,44 @@
+---
+pagetitle: 'Herbstsemester 2021'
+lang: de-CH
+toc: true
+---
+
+# DH Ringvorlesung — Herbstsemester 2021
+
+*DH Lecture Series — Autumn Semester 2021*
+
+**Einblicke in die Digital Humanities**
+
+Montags 14:15–15:45 Uhr · Workshops 16:15–17:45 Uhr · Mittelstrasse 43, Raum 124
+
+::: {.callout-note title="Vergangene Ausgabe"}
+Diese Ringvorlesung ist abgeschlossen. Das Programm steht hier zur Dokumentation; die
+Abstracts und weitere Angaben finden sich im PDF unten.
+
+[**Broschüre HS 2021 (PDF, mit Abstracts)**](/assets/programme/programm-hs2021.pdf)
+:::
+
+## Programm
+
+| Datum | Referent:in | Vortrag | Sprache |
+|:--|:--|:--|:--|
+| **20.09.** | Digital Humanities Bern | Einführung in die Ringvorlesung und das Studienprogramm | Deutsch |
+| **27.09.** | Peter Dängeli | TEI XML-Crashkurs — *Workshop: mit Workshop, 14:15–17:45* | Deutsch |
+| **04.10.** | Thomas Nehrlich | Alexander von Humboldts Sämtliche Schriften als Digitalausgabe | Deutsch |
+| **18.10.** | Kurt Fendt · Massachusetts Institute of Technology | Lesespuren: Annotationen in digitalen Texten und dynamischen Archiven — *Workshop: Annotation Studio* | Deutsch |
+| **25.10.** | Gabriela Schwarz-Zanetti / Lukas Heinzmann | Digitale Dietrich-Edition | Deutsch |
+| **01.11.** | Patricia Zihlmann / Silvio Raciti / Roland Reichen | Codierung von Korrespondenzen in der Gotthelf-Edition — *Workshop: Einführung in die XML/TEI-Codierung von Korrespondenzen* | Deutsch |
+| **08.11.** | Jimmy Schmid / Christian von Zimmermann | Das GUI als editorische Aufgabe | Deutsch |
+| **15.11.** | Daniela Kohler / Bernhard Metz / Martin Stuber | Auf den Schultern von Riesen – Fluch und Segen. Die Editions- und Forschungsplattform hallerNet — *Workshop: mit Workshop* | Deutsch |
+| **22.11.** | Patrick Sahle · Bergische Universität Wuppertal | Wie viele Seiten hat ein Buch? Über reale und digitale Informationsobjekte | Deutsch |
+| **29.11.** | Pascale Sutter / Bernhard Ruef · Rechtsquellenstiftung des Schweizerischen Juristenverbands, St. Gallen | Sammlung Schweizerischer Rechtsquellen online | Deutsch |
+| **06.12.** | Kaspar Gubler | Nodegoat als Tool für digitale Editionen — *Workshop: mit Workshop* | Deutsch |
+| **13.12.** | Stefan Abel | Das Berner «Parzival»-Projekt – Probleme und Perspektiven einer digitalen Edition unfester Texte | Deutsch |
+
+: {tbl-colwidths="[11,26,50,13]"}
+
+## Weitere Ausgaben
+
+-   [Übersicht aller Ausgaben](/index.qmd)
+-   [Aktuelle Ringvorlesung — Herbstsemester 2026](/2026/index.qmd)

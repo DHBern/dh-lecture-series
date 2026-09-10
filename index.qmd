@@ -6,6 +6,8 @@ toc: false
 
 # DH Ringvorlesung
 
+*DH Lecture Series*
+
 Ringvorlesung der Digital Humanities an der Universität Bern. Referierende aus Geschichte,
 Sprachwissenschaften, Kunstgeschichte und Digital Humanities geben Einblicke in die
 Theoretisierung und Umsetzung digitaler Methoden.
@@ -13,9 +15,126 @@ Theoretisierung und Umsetzung digitaler Methoden.
 *Lecture series of the Digital Humanities at the University of Bern, held in German and
 English.*
 
+## Alle Beiträge durchsuchen {#suche}
+
+Titel, Referierende und Institutionen aller Ausgaben — die Suche läuft im Browser, ohne
+Serveranfrage.
+
+```{=html}
+<div class="rv-search">
+  <form class="rv-form" onsubmit="return false;">
+    <input type="search" id="rv-q" autocomplete="off"
+           placeholder="z. B. Edition, Gotthelf, Basel, Whisper, Game Studies …"
+           aria-label="Beiträge aller Ausgaben durchsuchen">
+    <select id="rv-year" aria-label="Ausgabe eingrenzen"><option value="">Alle Ausgaben</option></select>
+  </form>
+  <p class="rv-status" id="rv-status">Suchindex wird geladen …</p>
+  <ol class="rv-results" id="rv-results"></ol>
+</div>
+
+<script>
+(function () {
+  var q = document.getElementById("rv-q"),
+      yearSel = document.getElementById("rv-year"),
+      status = document.getElementById("rv-status"),
+      list = document.getElementById("rv-results");
+  var data = [], timer = null;
+
+  function el(tag, cls, text) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    if (text != null) n.textContent = text;
+    return n;
+  }
+
+  function norm(s) {
+    return (s || "").toLowerCase()
+      .replace(/ä/g, "a").replace(/ö/g, "o").replace(/ü/g, "u").replace(/ß/g, "ss")
+      .normalize("NFD").replace(/[̀-ͯ]/g, "");
+  }
+
+  function render(rows, total) {
+    list.textContent = "";
+    if (!rows.length) {
+      status.textContent = "Nichts gefunden. Andere oder weniger Begriffe versuchen.";
+      return;
+    }
+    status.textContent = rows.length === total
+      ? rows.length + (rows.length === 1 ? " Beitrag." : " Beiträge.")
+      : rows.length + " von " + total + " Beiträgen.";
+    rows.forEach(function (r) {
+      var li = el("li", "rv-item");
+
+      var head = el("div", "rv-head");
+      var badge = el("span", "rv-year" + (r.current ? " rv-year-current" : ""), "HS " + r.year);
+      head.appendChild(badge);
+      var a = el("a", "rv-title", r.title);
+      a.setAttribute("href", r.url);
+      head.appendChild(a);
+      li.appendChild(head);
+
+      var meta = el("div", "rv-meta");
+      if (r.speaker) meta.appendChild(el("span", null, r.speaker));
+      if (r.affiliation) { var s = el("span"); s.appendChild(el("em", null, r.affiliation)); meta.appendChild(s); }
+      if (r.date) meta.appendChild(el("span", null, r.date));
+      if (r.lang) meta.appendChild(el("span", "rv-lang", r.lang));
+      li.appendChild(meta);
+
+      if (r.note) li.appendChild(el("div", "rv-note", r.note));
+      list.appendChild(li);
+    });
+  }
+
+  function run() {
+    var term = norm(q.value.trim());
+    var year = yearSel.value;
+    var pool = year ? data.filter(function (r) { return String(r.year) === year; }) : data;
+    if (!term) { render(pool.slice(0, 12), pool.length); 
+      if (pool.length > 12) status.textContent = "Die 12 neuesten von " + pool.length + " Beiträgen. Suchbegriff eingeben, um zu filtern.";
+      return; }
+    var words = term.split(/\s+/);
+    var hits = pool.filter(function (r) {
+      var hay = norm([r.title, r.speaker, r.affiliation, r.note, r.lang, "hs" + r.year].join(" "));
+      return words.every(function (w) { return hay.indexOf(w) !== -1; });
+    });
+    render(hits, pool.length);
+  }
+
+  fetch("search-index.json")
+    .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+    .then(function (j) {
+      data = j;
+      var years = [];
+      j.forEach(function (r) { if (years.indexOf(r.year) === -1) years.push(r.year); });
+      years.sort(function (a, b) { return b - a; }).forEach(function (y) {
+        var o = document.createElement("option");
+        o.value = String(y); o.textContent = "HS " + y;
+        yearSel.appendChild(o);
+      });
+      run();
+    })
+    .catch(function () {
+      status.textContent = "Der Suchindex liess sich nicht laden. Die Ausgaben sind unten einzeln verlinkt.";
+    });
+
+  q.addEventListener("input", function () { clearTimeout(timer); timer = setTimeout(run, 180); });
+  yearSel.addEventListener("change", run);
+})();
+</script>
+```
+
 ## Ausgaben
 
--   [**Herbstsemester 2026**](2026/index.qmd) — montags, Vorlesung 14–16 Uhr, Workshop 16–18 Uhr
+-   [**Herbstsemester 2026**](2026/index.qmd) — laufend; montags, Vorlesung 14–16 Uhr,
+    Workshop 16–18 Uhr
+-   [Herbstsemester 2024](2024/index.qmd) — *Einblicke in die Digital Humanities*
+-   [Herbstsemester 2023](2023/index.qmd) — *Fokus Game Studies in der Schweiz*
+-   [Herbstsemester 2022](2022/index.qmd) — *Einblicke in die Digital Humanities*
+-   [Herbstsemester 2021](2021/index.qmd) — *Einblicke in die Digital Humanities*
+-   [Herbstsemester 2020](2020/index.qmd) — *Einblicke in die Digital Humanities*
+
+Zu jeder vergangenen Ausgabe steht das originale Programm als PDF bereit; die Broschüren
+enthalten auch die Abstracts.
 
 ## Weitere Lehrveranstaltungen
 

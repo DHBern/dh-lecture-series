@@ -248,3 +248,117 @@ table td {
 	color: #8a4a12;
 	border-color: #f2d9bd;
 }
+
+/* Title of a contribution in the other language */
+
+.title-en,
+.title-de {
+	display: block;
+	margin-top: -0.35rem;
+	color: #5f5f68;
+	font-style: italic;
+}
+
+/* ---------------------------------------------------------------------------
+   Search across all editions of the lecture series (index.qmd)
+   --------------------------------------------------------------------------- */
+
+.rv-search {
+	margin: 1rem 0 2rem;
+	padding: 1rem 1.1rem 0.8rem;
+	border: 1px solid #e3e3e6;
+	border-radius: 0.6rem;
+	background: #fbfbfc;
+}
+
+.rv-form {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+
+.rv-form input[type='search'] {
+	flex: 1 1 24rem;
+	min-width: 0;
+	padding: 0.55rem 0.7rem;
+	border: 1px solid #cfcfd4;
+	border-radius: 0.4rem;
+	font-size: 1rem;
+}
+
+.rv-form select {
+	padding: 0.55rem 0.5rem;
+	border: 1px solid #cfcfd4;
+	border-radius: 0.4rem;
+	background: #fff;
+	font-size: 0.9rem;
+}
+
+.rv-status {
+	margin: 0.7rem 0 0;
+	font-size: 0.88rem;
+	color: #5f5f68;
+}
+
+.rv-results {
+	list-style: none;
+	margin: 0.6rem 0 0;
+	padding: 0;
+}
+
+.rv-item {
+	padding: 0.65rem 0;
+	border-top: 1px solid #ececef;
+}
+
+.rv-head {
+	display: flex;
+	align-items: baseline;
+	gap: 0.5rem;
+}
+
+.rv-year {
+	flex: none;
+	padding: 0.05em 0.45em;
+	border: 1px solid #dcdce1;
+	border-radius: 0.3em;
+	background: #f2f2f4;
+	color: #5f5f68;
+	font-size: 0.78em;
+	font-weight: 600;
+	white-space: nowrap;
+}
+
+.rv-year-current {
+	border-color: #b9d7f0;
+	background: #e1eefb;
+	color: #14507f;
+}
+
+.rv-title {
+	font-weight: 600;
+	line-height: 1.35;
+}
+
+.rv-meta {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.25rem 0.7rem;
+	margin-top: 0.2rem;
+	font-size: 0.86rem;
+	color: #5f5f68;
+}
+
+.rv-lang {
+	padding: 0 0.35em;
+	border: 1px solid #e2e2e6;
+	border-radius: 0.3em;
+	font-size: 0.92em;
+}
+
+.rv-note {
+	margin-top: 0.2rem;
+	font-size: 0.83rem;
+	font-style: italic;
+	color: #6f6f78;
+}

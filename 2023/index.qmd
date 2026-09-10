@@ -1,0 +1,39 @@
+---
+pagetitle: 'Herbstsemester 2023'
+lang: de-CH
+toc: true
+---
+
+# DH Ringvorlesung — Herbstsemester 2023
+
+*DH Lecture Series — Autumn Semester 2023*
+
+**Einblicke in die Digital Humanities — Fokus Game Studies in der Schweiz**
+
+Montags 14:15–18:00 Uhr · Unitobler, Raum F-123, Muesmattstrasse 45
+
+In Zusammenarbeit mit ZHdK, UniL, HKB und Confoederatio Ludens
+
+::: {.callout-note title="Vergangene Ausgabe"}
+Diese Ringvorlesung ist abgeschlossen. Das Programm steht hier zur Dokumentation; die
+Abstracts und weitere Angaben finden sich im PDF unten.
+
+[**Plakat HS 2023 (PDF)**](/assets/programme/programm-hs2023.pdf)
+:::
+
+## Programm
+
+| Datum | Referent:in | Vortrag | Sprache |
+|:--|:--|:--|:--|
+| **02.10.** | Eugen Pfister · Laura Strub | Einführungssitzung: Einführung in die Game Studies; Blog-Einträge als technische Einführung | Deutsch |
+| **16.10.** | UniL-Team, u.a. Pierre-Yves Hurel · Université de Lausanne | Leisure Electronics and Video Games | Englisch |
+| **06.11.** | ZHdK · Zürcher Hochschule der Künste | Game Design Theory and Practice | Englisch |
+| **20.11.** | Aurelia Brandenburg · Adrian Demleitner · HKB und Universität Bern | Gender in Video Games | Deutsch |
+| **04.12.** | Round Table | Past – Present – Future: Round-Table-Diskussion | Deutsch |
+
+: {tbl-colwidths="[11,26,50,13]"}
+
+## Weitere Ausgaben
+
+-   [Übersicht aller Ausgaben](/index.qmd)
+-   [Aktuelle Ringvorlesung — Herbstsemester 2026](/2026/index.qmd)

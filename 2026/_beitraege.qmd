@@ -28,6 +28,8 @@ wissenschaftliche Bloggen als Publikationsform.
 
 **Andreas Weilinghof** · Universität Koblenz · [Deutsch]{.lang-badge .lang-de .content-visible when-format="html"}[Vortragssprache: Deutsch]{.content-visible unless-format="html"}
 
+[Automatic Speech Recognition with Whisper]{.title-en}
+
 Der Beitrag befasst sich mit Whisper, dem automatischen Spracherkennungsmodell, und dessen
 Einsatz in der geisteswissenschaftlichen Forschung: was sich damit erschliessen lässt, wo die
 Grenzen liegen und was das für den Umgang mit Audioquellen bedeutet.
@@ -42,6 +44,8 @@ Titel und Abstract sind provisorisch und werden ergänzt, sobald sie vorliegen.
 
 **Florian Busch** · SNF-Projekt «Texting in Time», Universität Bern ·
 [Deutsch]{.lang-badge .lang-de .content-visible when-format="html"}[Vortragssprache: Deutsch]{.content-visible unless-format="html"}
+
+[From Screen Recording to Keylog: Video-Based Reconstruction of Writing Processes in Mobile Messenger Communication]{.title-en}
 
 **Vom Screenrecording zum Keylog: Videobasierte Rekonstruktion von Schreibprozessen in mobiler
 Messenger-Kommunikation**
@@ -241,6 +245,8 @@ Titel und Abstract werden ergänzt, sobald sie vorliegen.
 **Prof. Dr. Evelyn Gius** · Technische Universität Darmstadt ·
 [Deutsch]{.lang-badge .lang-de .content-visible when-format="html"}[Vortragssprache: Deutsch]{.content-visible unless-format="html"}
 
+[Measurement Uncertainty as an Epistemic Resource in the Digital Humanities]{.title-en}
+
 **Messunsicherheit als epistemische Ressource in den Digital Humanities. Methodologische
 Überlegungen an Beispielen aus der transmedialen Computational Narratology**
 
@@ -376,6 +382,8 @@ die Forschung zur mittelalterlichen Handschriftenproduktion besser unterstützen
 ### 16. November — TOPTEXT: Topologien des Textes {#t-1116}
 
 **Timon Boehm** · Universität Stuttgart · [Deutsch]{.lang-badge .lang-de .content-visible when-format="html"}[Vortragssprache: Deutsch]{.content-visible unless-format="html"}
+
+[TOPTEXT: Topological Text Analysis via Embedded Flow Graphs]{.title-en}
 
 **TOPTEXT. Topologische Textanalyse mittels eingebetteter Flussgraphen**
 

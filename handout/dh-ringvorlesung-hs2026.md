@@ -52,15 +52,15 @@ publiziert, sobald es definitiv ist.
 | Datum | Referent:in | Vorlesung 14–16 | Workshop 16–18 |
 |:---|:---|:---|:---|
 | **14. Sept.** | Digital Humanities Bern | Introducing the Lecture Series and the Study Programme | Introduction to Blogging (Leo Mader) |
-| **21. Sept.** | Andreas Weilinghof · Koblenz | Automatische Spracherkennung mit Whisper | Whisper-Workshop |
-| **28. Sept.** | Florian Busch · Bern | Vom Screenrecording zum Keylog | Anonymisierungswerkzeug des Data Science Lab |
+| **21. Sept.** | Andreas Weilinghof · Koblenz | Automatische Spracherkennung mit Whisper / *Automatic Speech Recognition with Whisper* | Whisper-Workshop |
+| **28. Sept.** | Florian Busch · Bern | Vom Screenrecording zum Keylog / *From Screen Recording to Keylog* | Anonymisierungswerkzeug des Data Science Lab |
 | **05. Okt.** | Annemieke Romein · Twente | HAICu — Co-Creating Meaningful (X)AI | HISTMET und Annif |
 | **12. Okt.** | Kathryn Rudy · St Andrews | Manuscript Studies | — |
 | 19\. Okt. | *keine Vorlesung* | — | — |
 | 26\. Okt. | *keine Vorlesung* | — | — |
-| **02. Nov.** | Evelyn Gius · Darmstadt | Messunsicherheit als epistemische Ressource | — |
+| **02. Nov.** | Evelyn Gius · Darmstadt | Messunsicherheit als epistemische Ressource / *Measurement Uncertainty as an Epistemic Resource* | — |
 | **09. Nov.** | Estelle Guéville · Yale | Making Women’s Manuscript Production Count | From Manuscripts to Data |
-| **16. Nov.** | Timon Boehm · Stuttgart | TOPTEXT — Topologien des Textes | — |
+| **16. Nov.** | Timon Boehm · Stuttgart | TOPTEXT — Topologien des Textes / *TOPTEXT: Topologies of Text* | — |
 | 23\. Nov. | *keine Vorlesung* | — | *(Zibelemärit)* |
 | 30\. Nov. | *keine Vorlesung* | — | — |
 | **07. Dez.** | William Mattingly · Yale | Visual Language Models | Visual Language Models |
@@ -97,6 +97,8 @@ introduction to scholarly blogging as a form of publication.
 
 **Andreas Weilinghof** · Universität Koblenz · Vortragssprache: Deutsch
 
+Automatic Speech Recognition with Whisper
+
 Der Beitrag befasst sich mit Whisper, dem automatischen
 Spracherkennungsmodell, und dessen Einsatz in der
 geisteswissenschaftlichen Forschung: was sich damit erschliessen lässt,
@@ -115,6 +117,10 @@ am eigenen Material.
 
 **Florian Busch** · SNF-Projekt «Texting in Time», Universität Bern ·
 Vortragssprache: Deutsch
+
+From Screen Recording to Keylog: Video-Based
+Reconstruction of Writing Processes in Mobile Messenger
+Communication
 
 **Vom Screenrecording zum Keylog: Videobasierte Rekonstruktion von
 Schreibprozessen in mobiler Messenger-Kommunikation**
@@ -356,6 +362,9 @@ Zugängen zu mittelalterlichen Manuskripten.
 **Prof. Dr. Evelyn Gius** · Technische Universität Darmstadt ·
 Vortragssprache: Deutsch
 
+Measurement Uncertainty as an Epistemic Resource
+in the Digital Humanities
+
 **Messunsicherheit als epistemische Ressource in den Digital Humanities.
 Methodologische Überlegungen an Beispielen aus der transmedialen
 Computational Narratology**
@@ -529,6 +538,9 @@ medieval manuscript production.
 ### 16. November — TOPTEXT: Topologien des Textes
 
 **Timon Boehm** · Universität Stuttgart · Vortragssprache: Deutsch
+
+TOPTEXT: Topological Text Analysis via Embedded
+Flow Graphs
 
 **TOPTEXT. Topologische Textanalyse mittels eingebetteter Flussgraphen**
 
