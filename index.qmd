@@ -127,6 +127,8 @@ Serveranfrage.
 
 -   [**Herbstsemester 2026**](2026/index.qmd) — laufend; montags, Vorlesung 14–16 Uhr,
     Workshop 16–18 Uhr
+-   [Herbstsemester 2025](2025/index.qmd) — *Digitale Sicherheit auf dem Prüfstand: Was
+    Cyberkriminalität tatsächlich anrichtet*
 -   [Herbstsemester 2024](2024/index.qmd) — *Einblicke in die Digital Humanities*
 -   [Herbstsemester 2023](2023/index.qmd) — *Fokus Game Studies in der Schweiz*
 -   [Herbstsemester 2022](2022/index.qmd) — *Einblicke in die Digital Humanities*
