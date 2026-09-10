@@ -15,7 +15,8 @@
 		"format": "prettier --ignore-path .gitignore --ignore-path .prettierignore --write . '!{CODE_OF_CONDUCT.md,LICENSE-AGPL.md,LICENSE-CCBYSA.md,_layouts/default.html,package-lock.json,pnpm-lock.yaml,yarn.lock}'",
 		"prepare": "husky",
 		"changelog": "npm exec git-cliff -- --config cliff.toml",
-		"handout": "python3 handout/build.py"
+		"handout": "python3 handout/build.py",
+		"editions": "python3 scripts/build_editions.py"
 	},
 	"devDependencies": {
 		"commitizen": "^4.3.1",

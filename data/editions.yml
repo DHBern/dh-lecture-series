@@ -1,0 +1,278 @@
+# Past editions of the DH Ringvorlesung.
+# The pages under 20XX/ and the search index are generated from this file:
+#   npm run editions
+# The current edition (2026) is not listed here — it is maintained as prose
+# under 2026/ and is read directly by the index builder.
+
+- year: 2020
+  semester: HS 2020
+  title: Einblicke in die Digital Humanities
+  time: 'Montags 14:15–15:45 Uhr'
+  venue: 'UniS, Raum A-126, und online'
+  pdf: programm-hs2020.pdf
+  pdf_label: 'Programm HS 2020 (Plakat, PDF)'
+  sessions:
+    - date: '21.09.2020'
+      speaker: 'Martin Dusinberre & Daniel McDonald'
+      affiliation: 'Universität Zürich'
+      title: 'Lives in Transit. Confessions of a Historian who wrote an E-Learning Game'
+      lang: en
+    - date: '05.10.2020'
+      speaker: 'Michael Piotrowski'
+      affiliation: 'Université de Lausanne'
+      title: 'Was ist, was soll Digital Humanities?'
+      lang: de
+    - date: '12.10.2020'
+      speaker: 'Silke Schwandt'
+      affiliation: 'Universität Bielefeld'
+      title: 'Worthäufigkeiten als Quelle für die Geschichtswissenschaft? Natural Language Processing in der Digital History'
+      lang: de
+      note: 'online zugeschaltet'
+    - date: '26.10.2020'
+      speaker: 'Peter Bell'
+      affiliation: 'Friedrich-Alexander-Universität Erlangen-Nürnberg'
+      title: 'Digitale Kunstgeschichte und Critical Machine Vision. Zwei Ansatzpunkte für eine bildwissenschaftliche Digital Humanities'
+      lang: de
+      note: 'online zugeschaltet'
+    - date: '02.11.2020'
+      speaker: 'Martin Grandjean'
+      affiliation: 'Université de Lausanne'
+      title: 'Network Analysis and Visualisation'
+      lang: en
+    - date: '16.11.2020'
+      speaker: 'Christa Schneider'
+      affiliation: 'Universität Bern'
+      title: 'Vom Interview zur Dialektkarte. Visualisierung variationslinguistischer Daten mit REDE SprachGIS'
+      lang: de
+    - date: '23.11.2020'
+      speaker: 'Simon Gabay'
+      affiliation: 'Université de Genève'
+      title: 'Quantifying the Unknown – The circulation of manuscripts on the private market: digitisation and analysis'
+      lang: en
+    - date: '07.12.2020'
+      speaker: 'Lukas Rosenthaler'
+      affiliation: 'Universität Basel'
+      title: 'Digitale Nachhaltigkeit: Data & Service Center for the Humanities'
+      lang: de
+
+- year: 2021
+  semester: HS 2021
+  title: Einblicke in die Digital Humanities
+  time: 'Montags 14:15–15:45 Uhr · Workshops 16:15–17:45 Uhr'
+  venue: 'Mittelstrasse 43, Raum 124'
+  pdf: programm-hs2021.pdf
+  pdf_label: 'Broschüre HS 2021 (PDF, mit Abstracts)'
+  sessions:
+    - date: '20.09.2021'
+      speaker: 'Digital Humanities Bern'
+      title: 'Einführung in die Ringvorlesung und das Studienprogramm'
+      lang: de
+    - date: '27.09.2021'
+      speaker: 'Peter Dängeli'
+      title: 'TEI XML-Crashkurs'
+      lang: de
+      workshop: 'mit Workshop, 14:15–17:45'
+    - date: '04.10.2021'
+      speaker: 'Thomas Nehrlich'
+      title: 'Alexander von Humboldts Sämtliche Schriften als Digitalausgabe'
+      lang: de
+    - date: '18.10.2021'
+      speaker: 'Kurt Fendt'
+      affiliation: 'Massachusetts Institute of Technology'
+      title: 'Lesespuren: Annotationen in digitalen Texten und dynamischen Archiven'
+      lang: de
+      workshop: 'Annotation Studio'
+    - date: '25.10.2021'
+      speaker: 'Gabriela Schwarz-Zanetti / Lukas Heinzmann'
+      title: 'Digitale Dietrich-Edition'
+      lang: de
+    - date: '01.11.2021'
+      speaker: 'Patricia Zihlmann / Silvio Raciti / Roland Reichen'
+      title: 'Codierung von Korrespondenzen in der Gotthelf-Edition'
+      lang: de
+      workshop: 'Einführung in die XML/TEI-Codierung von Korrespondenzen'
+    - date: '08.11.2021'
+      speaker: 'Jimmy Schmid / Christian von Zimmermann'
+      title: 'Das GUI als editorische Aufgabe'
+      lang: de
+    - date: '15.11.2021'
+      speaker: 'Daniela Kohler / Bernhard Metz / Martin Stuber'
+      title: 'Auf den Schultern von Riesen – Fluch und Segen. Die Editions- und Forschungsplattform hallerNet'
+      lang: de
+      workshop: 'mit Workshop'
+    - date: '22.11.2021'
+      speaker: 'Patrick Sahle'
+      affiliation: 'Bergische Universität Wuppertal'
+      title: 'Wie viele Seiten hat ein Buch? Über reale und digitale Informationsobjekte'
+      lang: de
+    - date: '29.11.2021'
+      speaker: 'Pascale Sutter / Bernhard Ruef'
+      affiliation: 'Rechtsquellenstiftung des Schweizerischen Juristenverbands, St. Gallen'
+      title: 'Sammlung Schweizerischer Rechtsquellen online'
+      lang: de
+    - date: '06.12.2021'
+      speaker: 'Kaspar Gubler'
+      title: 'Nodegoat als Tool für digitale Editionen'
+      lang: de
+      workshop: 'mit Workshop'
+    - date: '13.12.2021'
+      speaker: 'Stefan Abel'
+      title: 'Das Berner «Parzival»-Projekt – Probleme und Perspektiven einer digitalen Edition unfester Texte'
+      lang: de
+
+- year: 2022
+  semester: HS 2022
+  title: Einblicke in die Digital Humanities
+  time: 'Montags 14:15–15:45 Uhr'
+  venue: 'Mittelstrasse 43, Raum 124'
+  pdf: programm-hs2022.pdf
+  pdf_label: 'Broschüre HS 2022 (PDF, mit Abstracts)'
+  sessions:
+    - date: '19.09.2022'
+      speaker: 'Digital Humanities Bern'
+      title: 'Einführung'
+      lang: de
+      note: 'endet bereits um 15:00 Uhr'
+    - date: '26.09.2022'
+      speaker: 'Lise Jaillant'
+      title: 'Applying AI to Digital Archives: Trust, Collaboration and Shared Professional Ethics'
+      lang: en
+    - date: '03.10.2022'
+      speaker: 'Isabelle Marthot-Santaniello'
+      affiliation: 'Universität Basel'
+      title: 'The potential of Digital Paleography'
+      lang: en
+    - date: '24.10.2022'
+      speaker: 'Ina Serif'
+      affiliation: 'Universität Basel'
+      title: 'Zwischen Stuhl und (Daten-)Bank. Handel mit und digitale Zugänge zu Kirchenstühlen'
+      lang: de
+    - date: '31.10.2022'
+      speaker: 'Anna Jobin'
+      affiliation: 'Alexander von Humboldt Institut für Internet und Gesellschaft, Berlin'
+      title: 'Biased Data & Policies for Artificial Intelligence'
+      lang: en
+      note: 'im Rahmen der Reihe «Kritische Perspektiven auf Digitalisierung» und der Bern Data Science Initiative'
+    - date: '07.11.2022'
+      speaker: 'Round Table'
+      title: 'Walsert es? – Lesung und Round Table'
+      lang: de
+      note: '18:00–19:30 Uhr, Schweizerische Nationalbibliothek, Hallwylstrasse 15 — mit Tobias Hodel, Sarah Elena Müller und Christian Walt, Moderation Esther Schneider, Lesung Germaine Sollberger'
+    - date: '14.11.2022'
+      speaker: 'Dirk Hovy'
+      affiliation: 'Università Bocconi, Mailand'
+      title: 'What 300-dimensional Fridges can Tell Us about Language'
+      lang: en
+    - date: '21.11.2022'
+      speaker: 'Ulrike Felsing & Peter Fornaro'
+      affiliation: 'Universität Basel'
+      title: 'PIA – a SNF Sinergia Project about Image Archives'
+      lang: de
+    - date: '28.11.2022'
+      speaker: 'Joan Andreu Sánchez & Alejandro Héctor Toselli'
+      affiliation: 'Universitat Politècnica de València'
+      title: 'Latest developments in Recognition and Indexing Systems for Handwritten Document Images'
+      lang: en
+    - date: '05.12.2022'
+      speaker: 'Sonja Gasser'
+      affiliation: 'Stiftung für Kunst, Kultur und Geschichte, Winterthur'
+      title: 'Digitale Sammlungen: Daten kulturellen Erbes in den Museen und Geisteswissenschaften'
+      lang: de
+    - date: '12.12.2022'
+      speaker: 'Moritz Mähr'
+      affiliation: 'Universität Bern'
+      title: 'Der Korpus als Netzwerk. Quellen mit NLP in einen Graphen verwandeln'
+      lang: de
+
+- year: 2023
+  semester: HS 2023
+  title: 'Einblicke in die Digital Humanities — Fokus Game Studies in der Schweiz'
+  time: 'Montags 14:15–18:00 Uhr'
+  venue: 'Unitobler, Raum F-123, Muesmattstrasse 45'
+  pdf: programm-hs2023.pdf
+  pdf_label: 'Plakat HS 2023 (PDF)'
+  partners: 'In Zusammenarbeit mit ZHdK, UniL, HKB und Confoederatio Ludens'
+  sessions:
+    - date: '02.10.2023'
+      speaker: 'Eugen Pfister · Laura Strub'
+      title: 'Einführungssitzung: Einführung in die Game Studies; Blog-Einträge als technische Einführung'
+      lang: de
+    - date: '16.10.2023'
+      speaker: 'UniL-Team, u.a. Pierre-Yves Hurel'
+      affiliation: 'Université de Lausanne'
+      title: 'Leisure Electronics and Video Games'
+      lang: en
+    - date: '06.11.2023'
+      speaker: 'ZHdK'
+      affiliation: 'Zürcher Hochschule der Künste'
+      title: 'Game Design Theory and Practice'
+      lang: en
+    - date: '20.11.2023'
+      speaker: 'Aurelia Brandenburg · Adrian Demleitner'
+      affiliation: 'HKB und Universität Bern'
+      title: 'Gender in Video Games'
+      lang: de
+    - date: '04.12.2023'
+      speaker: 'Round Table'
+      title: 'Past – Present – Future: Round-Table-Diskussion'
+      lang: de
+
+- year: 2024
+  semester: HS 2024
+  title: 'Einblicke in die Digital Humanities / Insights into the Digital Humanities'
+  time: 'Montags 14:15–15:45 Uhr'
+  venue: 'Unitobler, Raum F-121'
+  pdf: programm-hs2024.pdf
+  pdf_label: 'Broschüre HS 2024 (PDF, mit Abstracts)'
+  sessions:
+    - date: '16.09.2024'
+      speaker: 'Digital Humanities Bern'
+      title: 'Einführung in die Ringvorlesung / Introduction'
+      lang: de
+      workshop: 'Bloggen, mit Dominik Kilchmann, 16:00–17:30'
+    - date: '30.09.2024'
+      speaker: 'Elena Spadini'
+      affiliation: 'Universitäten Basel und Bern'
+      title: 'Materiality and the digital for scholarly editing: from medieval manuscripts to electronic writing'
+      lang: en
+    - date: '07.10.2024'
+      speaker: 'Andreas Weilinghof'
+      affiliation: 'Universität Koblenz'
+      title: 'AI vs. Human? Cutting-Edge Tech Transforming Linguistic Research'
+      lang: en
+      workshop: 'Practical Introduction to Automatic Speech Recognition with OpenAI Whisper'
+    - date: '21.10.2024'
+      speaker: 'Tessa Gengnagel'
+      affiliation: 'Universität Köln'
+      title: 'Zum Scheitern verurteilt? Über Big-Tech-Blütenträume, Silicon Valley und die Niederungen der digitalen Geisteswissenschaften'
+      lang: de
+    - date: '28.10.2024'
+      speaker: 'Katarzyna Anna Kapitan'
+      affiliation: 'École Nationale des Chartes, Paris'
+      title: 'Digital approaches to loss of medieval literature'
+      lang: en
+    - date: '11.11.2024'
+      speaker: 'Achim Rabus'
+      affiliation: 'Universität Freiburg i. Br.'
+      title: '«Smarte» Handwritten Text Recognition (HTR) und Large Language Models (LLMs): Potenzierte KI als Verheissung oder Büchse der Pandora?'
+      lang: de
+    - date: '18.11.2024'
+      speaker: 'Claus Beisbart'
+      affiliation: 'Universität Bern'
+      title: 'Artificial humanities? What the use of AI means for the humanities'
+      lang: en
+    - date: '25.11.2024'
+      speaker: 'Moritz Feichtinger'
+      affiliation: 'Universität Basel'
+      title: 'De-Construction – Re-Construction: Reverse engineering als Methode und Paradigma'
+      lang: de
+    - date: '02.12.2024'
+      speaker: 'Noah Bubenhofer'
+      affiliation: 'Universität Zürich'
+      title: 'Sprachliche Muster in Texten: Warum sie entstehen, was sie bedeuten und wie sie korpuslinguistisch untersucht werden können'
+      lang: de
+      workshop: 'Hands-on Korpuslinguistik'
+    - date: '09.12.2024'
+      speaker: 'Absolvent:innen der Digital Humanities'
+      title: 'DH und dann? Ein Roundtable mit Absolvent*innen'
+      lang: de

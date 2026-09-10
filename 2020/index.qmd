@@ -1,0 +1,40 @@
+---
+pagetitle: 'Herbstsemester 2020'
+lang: de-CH
+toc: true
+---
+
+# DH Ringvorlesung — Herbstsemester 2020
+
+*DH Lecture Series — Autumn Semester 2020*
+
+**Einblicke in die Digital Humanities**
+
+Montags 14:15–15:45 Uhr · UniS, Raum A-126, und online
+
+::: {.callout-note title="Vergangene Ausgabe"}
+Diese Ringvorlesung ist abgeschlossen. Das Programm steht hier zur Dokumentation; die
+Abstracts und weitere Angaben finden sich im PDF unten.
+
+[**Programm HS 2020 (Plakat, PDF)**](/assets/programme/programm-hs2020.pdf)
+:::
+
+## Programm
+
+| Datum | Referent:in | Vortrag | Sprache |
+|:--|:--|:--|:--|
+| **21.09.** | Martin Dusinberre & Daniel McDonald · Universität Zürich | Lives in Transit. Confessions of a Historian who wrote an E-Learning Game | Englisch |
+| **05.10.** | Michael Piotrowski · Université de Lausanne | Was ist, was soll Digital Humanities? | Deutsch |
+| **12.10.** | Silke Schwandt · Universität Bielefeld | Worthäufigkeiten als Quelle für die Geschichtswissenschaft? Natural Language Processing in der Digital History — *online zugeschaltet* | Deutsch |
+| **26.10.** | Peter Bell · Friedrich-Alexander-Universität Erlangen-Nürnberg | Digitale Kunstgeschichte und Critical Machine Vision. Zwei Ansatzpunkte für eine bildwissenschaftliche Digital Humanities — *online zugeschaltet* | Deutsch |
+| **02.11.** | Martin Grandjean · Université de Lausanne | Network Analysis and Visualisation | Englisch |
+| **16.11.** | Christa Schneider · Universität Bern | Vom Interview zur Dialektkarte. Visualisierung variationslinguistischer Daten mit REDE SprachGIS | Deutsch |
+| **23.11.** | Simon Gabay · Université de Genève | Quantifying the Unknown – The circulation of manuscripts on the private market: digitisation and analysis | Englisch |
+| **07.12.** | Lukas Rosenthaler · Universität Basel | Digitale Nachhaltigkeit: Data & Service Center for the Humanities | Deutsch |
+
+: {tbl-colwidths="[11,26,50,13]"}
+
+## Weitere Ausgaben
+
+-   [Übersicht aller Ausgaben](/index.qmd)
+-   [Aktuelle Ringvorlesung — Herbstsemester 2026](/2026/index.qmd)

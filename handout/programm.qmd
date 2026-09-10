@@ -29,6 +29,8 @@ format:
 
 **Herbstsemester 2026 — Programm**
 
+*DH Lecture Series — Autumn Semester 2026, Programme*
+
 {{< include _stand.qmd >}}
 :::
 

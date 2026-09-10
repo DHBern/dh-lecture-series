@@ -15,8 +15,27 @@ Kolleg / Digital Humanities.
 | Languages         | German and English                                                                        |
 | Also published at | [dh.unibe.ch](https://www.dh.unibe.ch/studium/lehrveranstaltungen/aktuell/index_ger.html) |
 
-Single-page site: everything lives in `index.qmd`, with anchors per date. There are no
-sub-pages by design.
+## Structure
+
+```
+index.qmd            index of editions + search across all contributions
+2026/                current edition (prose, one page with anchors per date)
+2020/ … 2024/        past editions — GENERATED, do not edit by hand
+data/editions.yml    the source for every past edition
+scripts/             build_editions.py — writes the year pages and search-index.json
+assets/programme/    the original programme PDF of each past edition
+handout/             Markdown and PDF exports of the current edition
+```
+
+Past editions and the search index are generated:
+
+```bash
+npm run editions
+```
+
+Edit `data/editions.yml`, never `20XX/index.qmd`. The search index covers every edition: past
+ones come from the YAML, the current one is read out of `2026/_beitraege.qmd`, so nothing is
+maintained twice.
 
 ## Handout for the UniBE website
 

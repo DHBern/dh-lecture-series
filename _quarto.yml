@@ -4,11 +4,18 @@ project:
   render:
     - index.qmd
     - 2026/index.qmd
+    - 2024/index.qmd
+    - 2023/index.qmd
+    - 2022/index.qmd
+    - 2021/index.qmd
+    - 2020/index.qmd
   resources:
     - handout/dh-ringvorlesung-hs2026.pdf
     - handout/dh-ringvorlesung-hs2026.md
     - handout/dh-ringvorlesung-hs2026-kurz.pdf
     - handout/dh-ringvorlesung-hs2026-kurz.md
+    - assets/programme/*.pdf
+    - search-index.json
 
 website:
   title: 'DH Ringvorlesung'
@@ -32,6 +39,8 @@ website:
       - icon: github
         url: https://github.com/DHBern/dh-lecture-series/
     left:
+      - href: index.qmd#suche
+        text: Suche
       - href: 2026/index.qmd
         text: 'HS 2026'
       - href: 2026/index.qmd#programm

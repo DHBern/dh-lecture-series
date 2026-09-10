@@ -25,6 +25,8 @@ license:
 
 # DH Ringvorlesung — Herbstsemester 2026
 
+*DH Lecture Series — Autumn Semester 2026*
+
 ::: {.callout-tip title="Programm zum Mitnehmen"}
 **Vollständiges Programm mit allen Abstracts**
 [PDF](/handout/dh-ringvorlesung-hs2026.pdf) ·

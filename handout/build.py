@@ -80,6 +80,16 @@ def build_speaker_list() -> Path:
             i += 1
         raw = " ".join(byline)
         lang = "Deutsch" if "lang-de" in raw else "Englisch" if "lang-en" in raw else ""
+
+        # a contribution may carry its title in the other language on the next line
+        other_title = ""
+        while i < len(lines) and not lines[i].strip():
+            i += 1
+        alt = re.match(r"^\[(?P<t>.+?)\]\{\.title-(en|de)\}\s*$", lines[i].strip() if i < len(lines) else "")
+        if alt:
+            other_title = alt.group("t")
+            i += 1
+
         raw = re.sub(r"\[[^\]]*\]\{[^}]*\}", "", raw)          # drop the badge spans
         fields = [f.strip(" ·") for f in raw.split("·")]
         fields = [f for f in fields if f]
@@ -91,6 +101,7 @@ def build_speaker_list() -> Path:
             "name": name,
             "affiliation": affiliation,
             "lang": lang,
+            "other_title": other_title,
         })
 
     out = ["## Referentinnen und Referenten", ""]
@@ -99,7 +110,10 @@ def build_speaker_list() -> Path:
         if e["affiliation"]:
             who += f" · {e['affiliation']}"
         out.append(who + "  ")
-        detail = f"*{e['title']}* — {e['date']}"
+        detail = f"*{e['title']}*"
+        if e["other_title"]:
+            detail += f" / *{e['other_title']}*"
+        detail += f" — {e['date']}"
         if e["lang"]:
             detail += f", Vortragssprache: {e['lang']}"
         out.append(detail)

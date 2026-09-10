@@ -1,0 +1,43 @@
+---
+pagetitle: 'Herbstsemester 2022'
+lang: de-CH
+toc: true
+---
+
+# DH Ringvorlesung — Herbstsemester 2022
+
+*DH Lecture Series — Autumn Semester 2022*
+
+**Einblicke in die Digital Humanities**
+
+Montags 14:15–15:45 Uhr · Mittelstrasse 43, Raum 124
+
+::: {.callout-note title="Vergangene Ausgabe"}
+Diese Ringvorlesung ist abgeschlossen. Das Programm steht hier zur Dokumentation; die
+Abstracts und weitere Angaben finden sich im PDF unten.
+
+[**Broschüre HS 2022 (PDF, mit Abstracts)**](/assets/programme/programm-hs2022.pdf)
+:::
+
+## Programm
+
+| Datum | Referent:in | Vortrag | Sprache |
+|:--|:--|:--|:--|
+| **19.09.** | Digital Humanities Bern | Einführung — *endet bereits um 15:00 Uhr* | Deutsch |
+| **26.09.** | Lise Jaillant | Applying AI to Digital Archives: Trust, Collaboration and Shared Professional Ethics | Englisch |
+| **03.10.** | Isabelle Marthot-Santaniello · Universität Basel | The potential of Digital Paleography | Englisch |
+| **24.10.** | Ina Serif · Universität Basel | Zwischen Stuhl und (Daten-)Bank. Handel mit und digitale Zugänge zu Kirchenstühlen | Deutsch |
+| **31.10.** | Anna Jobin · Alexander von Humboldt Institut für Internet und Gesellschaft, Berlin | Biased Data & Policies for Artificial Intelligence — *im Rahmen der Reihe «Kritische Perspektiven auf Digitalisierung» und der Bern Data Science Initiative* | Englisch |
+| **07.11.** | Round Table | Walsert es? – Lesung und Round Table — *18:00–19:30 Uhr, Schweizerische Nationalbibliothek, Hallwylstrasse 15 — mit Tobias Hodel, Sarah Elena Müller und Christian Walt, Moderation Esther Schneider, Lesung Germaine Sollberger* | Deutsch |
+| **14.11.** | Dirk Hovy · Università Bocconi, Mailand | What 300-dimensional Fridges can Tell Us about Language | Englisch |
+| **21.11.** | Ulrike Felsing & Peter Fornaro · Universität Basel | PIA – a SNF Sinergia Project about Image Archives | Deutsch |
+| **28.11.** | Joan Andreu Sánchez & Alejandro Héctor Toselli · Universitat Politècnica de València | Latest developments in Recognition and Indexing Systems for Handwritten Document Images | Englisch |
+| **05.12.** | Sonja Gasser · Stiftung für Kunst, Kultur und Geschichte, Winterthur | Digitale Sammlungen: Daten kulturellen Erbes in den Museen und Geisteswissenschaften | Deutsch |
+| **12.12.** | Moritz Mähr · Universität Bern | Der Korpus als Netzwerk. Quellen mit NLP in einen Graphen verwandeln | Deutsch |
+
+: {tbl-colwidths="[11,26,50,13]"}
+
+## Weitere Ausgaben
+
+-   [Übersicht aller Ausgaben](/index.qmd)
+-   [Aktuelle Ringvorlesung — Herbstsemester 2026](/2026/index.qmd)
