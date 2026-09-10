@@ -217,6 +217,76 @@
       title: 'Past – Present – Future: Round-Table-Diskussion'
       lang: de
 
+- year: 2025
+  semester: HS 2025
+  title: 'Digitale Sicherheit auf dem Prüfstand: Was Cyberkriminalität tatsächlich anrichtet'
+  time: 'Montags 14:15–15:45 Uhr'
+  venue: 'Unitobler, Raum F-021'
+  pdf: programm-hs2025.pdf
+  pdf_label: 'Flyer HS 2025 (PDF)'
+  partners: 'Unterstützt von der Digitalisierungskommission der Universität Bern, der Kommission für Forschungs- und Nachwuchsförderung der Philosophisch-historischen Fakultät und vom Walter Benjamin Kolleg. Kontakt: Christa Schneider.'
+  sessions:
+    - date: '22.09.2025'
+      speaker: 'Adrienne Fichter'
+      affiliation: 'Politologin und Journalistin'
+      title: 'Surveillance Fédérale – wie Staaten Sicherheitslücken ausnutzen und zur Überwachung nutzen'
+      lang: de
+      note: 'Eröffnungsvortrag, anschliessend Apéro'
+    - date: '29.09.2025'
+      speaker: 'Claus Beisbart'
+      affiliation: 'Philosophie, Universität Bern'
+      title: 'Echt falsch? Moral im Cyberspace'
+      lang: de
+    - date: '06.10.2025'
+      speaker: 'noch offen'
+      title: 'noch offen'
+      lang: de
+    - date: '13.10.2025'
+      speaker: 'Daniel Gammenthaler'
+      affiliation: 'Geschichte / Digital Humanities, Universität Bern'
+      title: 'Exploit-Kunst und Cyberkriminalität: Zur Transformation von Malware seit den 1980ern'
+      lang: de
+    - date: '20.10.2025'
+      speaker: 'Martin Ritzmann'
+      affiliation: 'Walter Benjamin Kolleg und IT, Universität Bern'
+      title: 'Zwischen Morris Worm und Ransomware: Soziotechniken der Cybersicherheit'
+      lang: de
+    - date: '27.10.2025'
+      speaker: 'Adrian Leemann'
+      affiliation: 'Germanistik, Universität Bern'
+      title: 'Stimme geklaut, Vertrauen zerstört: Deepfakes und Stimmklone im Cybercrime'
+      lang: de
+    - date: '03.11.2025'
+      speaker: 'Markus Ruchti'
+      affiliation: 'Kantonspolizei Bern'
+      title: 'Cyberangriffe verstehen – von der Bedrohung bis zur Verfolgung'
+      lang: de
+    - date: '10.11.2025'
+      speaker: 'Reto Inversini'
+      affiliation: 'SBB'
+      title: 'Bedrohungen, Angriffsmuster und Widerstandsfähigkeit kritischer Infrastrukturen am Beispiel des Bahnsektors'
+      lang: de
+    - date: '17.11.2025'
+      speaker: 'Alexandra Arni'
+      affiliation: 'Swiss Financial Sector Cyber Security Centre'
+      title: 'Public-Private Partnership zur Stärkung der Cyberresilienz auf dem Finanzplatz Schweiz'
+      lang: de
+    - date: '24.11.2025'
+      speaker: 'Diego Schmidlin'
+      affiliation: 'Swiss Armed Forces, Cyber Security'
+      title: 'Cybersicherheit und hybride Kriegsführung: Erweiterung des Spektrums'
+      lang: de
+    - date: '01.12.2025'
+      speaker: 'Stephan Glaus'
+      affiliation: 'Bundesamt für Cybersicherheit BACS'
+      title: 'Titel noch offen'
+      lang: de
+    - date: '08.12.2025'
+      speaker: 'Sang-Il Kim'
+      affiliation: 'Berner Fachhochschule Biel'
+      title: 'Cyberkriminalität im Gesundheitswesen: Risiken und Auswirkungen verstehen'
+      lang: de
+
 - year: 2024
   semester: HS 2024
   title: 'Einblicke in die Digital Humanities / Insights into the Digital Humanities'

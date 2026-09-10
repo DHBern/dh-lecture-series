@@ -1,0 +1,49 @@
+---
+pagetitle: 'Herbstsemester 2025'
+lang: de-CH
+toc: true
+---
+
+# DH Ringvorlesung — Herbstsemester 2025
+
+*DH Lecture Series — Autumn Semester 2025*
+
+**Digitale Sicherheit auf dem Prüfstand: Was Cyberkriminalität tatsächlich anrichtet**
+
+Montags 14:15–15:45 Uhr · Unitobler, Raum F-021
+
+Unterstützt von der Digitalisierungskommission der Universität Bern, der Kommission für Forschungs- und Nachwuchsförderung der Philosophisch-historischen Fakultät und vom Walter Benjamin Kolleg. Kontakt: Christa Schneider.
+
+::: {.callout-note title="Vergangene Ausgabe"}
+Diese Ringvorlesung ist abgeschlossen. Das Programm steht hier zur Dokumentation; die
+Abstracts und weitere Angaben finden sich im PDF unten.
+
+[**Flyer HS 2025 (PDF)**](/assets/programme/programm-hs2025.pdf) ·
+[Ankündigung im Blog «Einblicke»](https://einblicke.hypotheses.org/5590)
+
+Die Sitzungen am 15.09.2025 und am 15.12.2025 waren angemeldeten Studierenden vorbehalten.
+:::
+
+## Programm
+
+| Datum | Referent:in | Vortrag | Sprache |
+|:--|:--|:--|:--|
+| **22.09.** | Adrienne Fichter · Politologin und Journalistin | Surveillance Fédérale – wie Staaten Sicherheitslücken ausnutzen und zur Überwachung nutzen — *Eröffnungsvortrag, anschliessend Apéro* | Deutsch |
+| **29.09.** | Claus Beisbart · Philosophie, Universität Bern | Echt falsch? Moral im Cyberspace | Deutsch |
+| **06.10.** | noch offen | noch offen | Deutsch |
+| **13.10.** | Daniel Gammenthaler · Geschichte / Digital Humanities, Universität Bern | Exploit-Kunst und Cyberkriminalität: Zur Transformation von Malware seit den 1980ern | Deutsch |
+| **20.10.** | Martin Ritzmann · Walter Benjamin Kolleg und IT, Universität Bern | Zwischen Morris Worm und Ransomware: Soziotechniken der Cybersicherheit | Deutsch |
+| **27.10.** | Adrian Leemann · Germanistik, Universität Bern | Stimme geklaut, Vertrauen zerstört: Deepfakes und Stimmklone im Cybercrime | Deutsch |
+| **03.11.** | Markus Ruchti · Kantonspolizei Bern | Cyberangriffe verstehen – von der Bedrohung bis zur Verfolgung | Deutsch |
+| **10.11.** | Reto Inversini · SBB | Bedrohungen, Angriffsmuster und Widerstandsfähigkeit kritischer Infrastrukturen am Beispiel des Bahnsektors | Deutsch |
+| **17.11.** | Alexandra Arni · Swiss Financial Sector Cyber Security Centre | Public-Private Partnership zur Stärkung der Cyberresilienz auf dem Finanzplatz Schweiz | Deutsch |
+| **24.11.** | Diego Schmidlin · Swiss Armed Forces, Cyber Security | Cybersicherheit und hybride Kriegsführung: Erweiterung des Spektrums | Deutsch |
+| **01.12.** | Stephan Glaus · Bundesamt für Cybersicherheit BACS | Titel noch offen | Deutsch |
+| **08.12.** | Sang-Il Kim · Berner Fachhochschule Biel | Cyberkriminalität im Gesundheitswesen: Risiken und Auswirkungen verstehen | Deutsch |
+
+: {tbl-colwidths="[11,26,50,13]"}
+
+## Weitere Ausgaben
+
+-   [Übersicht aller Ausgaben](/index.qmd)
+-   [Aktuelle Ringvorlesung — Herbstsemester 2026](/2026/index.qmd)
