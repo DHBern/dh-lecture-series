@@ -24,20 +24,72 @@ wissenschaftliche Bloggen als Publikationsform.
 *Inoffizielle Übersetzung.*
 :::
 
-### 21. September — Automatische Spracherkennung mit Whisper {#t-0921}
+### 21. September — Using and finetuning Whisper for different languages and varieties {#t-0921}
 
-**Andreas Weilinghof** · Universität Koblenz · [Deutsch]{.lang-badge .lang-de .content-visible when-format="html"}[Vortragssprache: Deutsch]{.content-visible unless-format="html"}
+**JProf. Dr. Andreas Weilinghoff** · Universität Koblenz · [English]{.lang-badge .lang-en .content-visible when-format="html"}[Vortragssprache: Englisch]{.content-visible unless-format="html"}
 
-[Automatic Speech Recognition with Whisper]{.title-en}
+Since the successful introduction of transformer architectures with attention mechanisms
+(Vaswani et al. 2017), substantial advances have been made across numerous areas of Natural
+Language Processing (NLP). While public discourse has largely focused on chatbots (e.g. ChatGPT,
+Gemini, DeepSeek), automatic speech recognition (ASR) has likewise undergone remarkable progress
+in recent years (Jurafsky and Martin 2026). A particularly influential open-source example is
+Whisper, published in 2022 (Radford et al. 2022). Consequently, a central question is how the
+latest ASR models can be effectively used to speed up and enhance transcription work. More
+specifically, how do the latest ASR models perform in terms of accuracy and speed when compared
+to human transcribers?
 
-Der Beitrag befasst sich mit Whisper, dem automatischen Spracherkennungsmodell, und dessen
-Einsatz in der geisteswissenschaftlichen Forschung: was sich damit erschliessen lässt, wo die
-Grenzen liegen und was das für den Umgang mit Audioquellen bedeutet.
+This talk will address these questions by presenting a study of Whisper's performance across a
+range of sociolinguistic datasets (Weilinghoff, fc.). Furthermore, the talk will examine the
+finetuning of Whisper for different languages and language varieties. I will describe the extent
+to which AI systems can support, or potentially replace, human contributions to data preparation
+in the Digital Humanities, while highlighting the limitations that remain. The talk will also
+consider other rapidly developing areas, including spoken language translation and human–robot
+interaction.
+
+**Workshop 16–18: Whisper workshop** — hands-on work with Whisper on your own material.
+
+::: {.callout-note title="Literatur / References" collapse="true"}
+Jurafsky, D. & Martin, J. H. (2026). *Speech and Language Processing: An Introduction to Natural
+Language Processing, Computational Linguistics, and Speech Recognition.*
+<https://web.stanford.edu/~jurafsky/slp3/>
+
+Radford, A., Kim, J. W., Xu, T., Brockman, G., McLeavey, C. & Sutskever, I. (2022). Robust
+Speech Recognition via Large-Scale Weak Supervision. <https://arxiv.org/abs/2212.04356>
+
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł. &
+Polosukhin, I. (2017). Attention Is All You Need. <https://arxiv.org/abs/1706.03762>
+
+Weilinghoff, Andreas (forthcoming). "Advancements in automatic speech recognition for corpus
+phonology: Evaluating Whisper's performance on sociolinguistic datasets." In Philipp Meer &
+Ulrike Gut (eds.), *English Corpus Phonetics and Phonology: Current Approaches and Future
+Directions.* De Gruyter.
+:::
+
+::: {.callout-tip title="Deutsche Übersetzung" collapse="true"}
+**Whisper einsetzen und feinabstimmen — für verschiedene Sprachen und Varietäten**
+
+Seit der erfolgreichen Einführung von Transformer-Architekturen mit Attention-Mechanismen
+(Vaswani et al. 2017) sind in zahlreichen Bereichen der Computerlinguistik (NLP) erhebliche
+Fortschritte erzielt worden. Während die öffentliche Debatte vor allem Chatbots gilt (etwa
+ChatGPT, Gemini, DeepSeek), hat auch die automatische Spracherkennung (ASR) in den letzten
+Jahren bemerkenswerte Fortschritte gemacht (Jurafsky und Martin 2026). Ein besonders
+einflussreiches Open-Source-Beispiel ist Whisper, veröffentlicht 2022 (Radford et al. 2022).
+Damit stellt sich die zentrale Frage, wie sich die neuesten ASR-Modelle nutzen lassen, um
+Transkriptionsarbeit zu beschleunigen und zu verbessern. Genauer: Wie schneiden die neuesten
+ASR-Modelle in Bezug auf Genauigkeit und Geschwindigkeit im Vergleich zu menschlichen
+Transkribierenden ab?
+
+Der Vortrag geht diesen Fragen nach und stellt eine Untersuchung zur Leistung von Whisper auf
+einer Reihe soziolinguistischer Datensätze vor (Weilinghoff, i. E.). Darüber hinaus wird die
+Feinabstimmung (Finetuning) von Whisper für verschiedene Sprachen und Sprachvarietäten
+betrachtet. Ich zeige, in welchem Ausmass KI-Systeme menschliche Beiträge zur Datenaufbereitung
+in den Digital Humanities unterstützen oder womöglich ersetzen können, und wo die Grenzen
+liegen. Zur Sprache kommen ausserdem weitere Felder in rascher Entwicklung, darunter die
+Übersetzung gesprochener Sprache und die Mensch-Roboter-Interaktion.
 
 **Workshop 16–18 Uhr: Whisper-Workshop** — praktische Arbeit mit Whisper am eigenen Material.
 
-::: {.callout-note title="Arbeitstitel"}
-Titel und Abstract sind provisorisch und werden ergänzt, sobald sie vorliegen.
+*Inoffizielle Übersetzung.*
 :::
 
 ### 28. September — Vom Screenrecording zum Keylog {#t-0928}
@@ -379,13 +431,11 @@ die Forschung zur mittelalterlichen Handschriftenproduktion besser unterstützen
 *Inoffizielle Übersetzung.*
 :::
 
-### 16. November — TOPTEXT: Topologien des Textes {#t-1116}
+### 16. November — TOPTEXT. Topologische Textanalyse mittels eingebetteter Flussgraphen {#t-1116}
 
 **Timon Boehm** · Universität Stuttgart · [Deutsch]{.lang-badge .lang-de .content-visible when-format="html"}[Vortragssprache: Deutsch]{.content-visible unless-format="html"}
 
-[TOPTEXT: Topological Text Analysis via Embedded Flow Graphs]{.title-en}
-
-**TOPTEXT. Topologische Textanalyse mittels eingebetteter Flussgraphen**
+[TOPTEXT. Topological Text Analysis via Embedded Flow Graphs]{.title-en}
 
 Wir schlagen ein neues Modell für eine topologische Textanalyse vor, das auf sogenannten
 Flussgraphen basiert (TOPTEXT). Unser Modell verfeinert bestehende Ansätze insofern, als seine

@@ -3,8 +3,8 @@
 **Digital Humanities Bern**  
 *Introducing the Lecture Series and the Study Programme* — 14. September, Vortragssprache: Englisch
 
-**Andreas Weilinghof** · Universität Koblenz  
-*Automatische Spracherkennung mit Whisper* / *Automatic Speech Recognition with Whisper* — 21. September, Vortragssprache: Deutsch
+**JProf. Dr. Andreas Weilinghoff** · Universität Koblenz  
+*Using and finetuning Whisper for different languages and varieties* — 21. September, Vortragssprache: Englisch
 
 **Florian Busch** · SNF-Projekt «Texting in Time», Universität Bern  
 *Vom Screenrecording zum Keylog* / *From Screen Recording to Keylog: Video-Based Reconstruction of Writing Processes in Mobile Messenger Communication* — 28. September, Vortragssprache: Deutsch
@@ -22,7 +22,7 @@
 *Making Women's Manuscript Production Count* — 09. November, Vortragssprache: Englisch
 
 **Timon Boehm** · Universität Stuttgart  
-*TOPTEXT: Topologien des Textes* / *TOPTEXT: Topological Text Analysis via Embedded Flow Graphs* — 16. November, Vortragssprache: Deutsch
+*TOPTEXT. Topologische Textanalyse mittels eingebetteter Flussgraphen* / *TOPTEXT. Topological Text Analysis via Embedded Flow Graphs* — 16. November, Vortragssprache: Deutsch
 
 **William Mattingly** · Yale University, USA  
 *Visual Language Models* — 07. Dezember, Vortragssprache: Englisch

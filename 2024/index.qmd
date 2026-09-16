@@ -25,7 +25,7 @@ Abstracts und weitere Angaben finden sich im PDF unten.
 |:--|:--|:--|:--|
 | **16.09.** | Digital Humanities Bern | Einführung in die Ringvorlesung / Introduction — *Workshop: Bloggen, mit Dominik Kilchmann, 16:00–17:30* | Deutsch |
 | **30.09.** | Elena Spadini · Universitäten Basel und Bern | Materiality and the digital for scholarly editing: from medieval manuscripts to electronic writing | Englisch |
-| **07.10.** | Andreas Weilinghof · Universität Koblenz | AI vs. Human? Cutting-Edge Tech Transforming Linguistic Research — *Workshop: Practical Introduction to Automatic Speech Recognition with OpenAI Whisper* | Englisch |
+| **07.10.** | Andreas Weilinghoff · Universität Koblenz | AI vs. Human? Cutting-Edge Tech Transforming Linguistic Research — *Workshop: Practical Introduction to Automatic Speech Recognition with OpenAI Whisper* | Englisch |
 | **21.10.** | Tessa Gengnagel · Universität Köln | Zum Scheitern verurteilt? Über Big-Tech-Blütenträume, Silicon Valley und die Niederungen der digitalen Geisteswissenschaften | Deutsch |
 | **28.10.** | Katarzyna Anna Kapitan · École Nationale des Chartes, Paris | Digital approaches to loss of medieval literature | Englisch |
 | **11.11.** | Achim Rabus · Universität Freiburg i. Br. | «Smarte» Handwritten Text Recognition (HTR) und Large Language Models (LLMs): Potenzierte KI als Verheissung oder Büchse der Pandora? | Deutsch |

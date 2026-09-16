@@ -3,7 +3,7 @@
 | Datum | Referent:in | Vorlesung 14–16 | Workshop 16–18 |
 |:--|:--|:--|:--|
 | **14. Sept.** | Digital Humanities Bern | Introducing the Lecture Series and the Study Programme | Introduction to Blogging (Leo Mader) |
-| **21. Sept.** | Andreas Weilinghof · Koblenz | Automatische Spracherkennung mit Whisper / *Automatic Speech Recognition with Whisper* | Whisper-Workshop |
+| **21. Sept.** | Andreas Weilinghoff · Koblenz | Using and finetuning Whisper for different languages and varieties | Whisper-Workshop |
 | **28. Sept.** | Florian Busch · Bern | Vom Screenrecording zum Keylog / *From Screen Recording to Keylog* | Anonymisierungswerkzeug des Data Science Lab |
 | **05. Okt.** | Annemieke Romein · Twente | HAICu — Co-Creating Meaningful (X)AI | HISTMET und Annif |
 | **12. Okt.** | Kathryn Rudy · St Andrews | Manuscript Studies | — |
@@ -11,7 +11,7 @@
 | 26. Okt. | *keine Vorlesung* | — | — |
 | **02. Nov.** | Evelyn Gius · Darmstadt | Messunsicherheit als epistemische Ressource / *Measurement Uncertainty as an Epistemic Resource* | — |
 | **09. Nov.** | Estelle Guéville · Yale | Making Women's Manuscript Production Count | From Manuscripts to Data |
-| **16. Nov.** | Timon Boehm · Stuttgart | TOPTEXT — Topologien des Textes / *TOPTEXT: Topologies of Text* | — |
+| **16. Nov.** | Timon Boehm · Stuttgart | TOPTEXT. Topologische Textanalyse mittels eingebetteter Flussgraphen / *TOPTEXT. Topological Text Analysis via Embedded Flow Graphs* | — |
 | 23. Nov. | *keine Vorlesung* | — | *(Zibelemärit)* |
 | 30. Nov. | *keine Vorlesung* | — | — |
 | **07. Dez.** | William Mattingly · Yale | Visual Language Models | Visual Language Models |
