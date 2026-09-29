@@ -6,7 +6,7 @@
 | **21. Sept.** | Andreas Weilinghoff · Koblenz | Using and finetuning Whisper for different languages and varieties | Whisper-Workshop |
 | **28. Sept.** | Florian Busch · Bern | Vom Screenrecording zum Keylog / *From Screen Recording to Keylog* | Anonymisierungswerkzeug des Data Science Lab |
 | **05. Okt.** | Annemieke Romein · Twente | HAICu — Co-Creating Meaningful (X)AI | HISTMET und Annif |
-| **12. Okt.** | Kathryn Rudy · St Andrews | Manuscript Studies | — |
+| 12. Okt. | Kathryn Rudy · St Andrews | Manuscript Studies — *fällt aus* | — |
 | 19. Okt. | *keine Vorlesung* | — | — |
 | 26. Okt. | *keine Vorlesung* | — | — |
 | **02. Nov.** | Evelyn Gius · Darmstadt | Messunsicherheit als epistemische Ressource / *Measurement Uncertainty as an Epistemic Resource* | — |
