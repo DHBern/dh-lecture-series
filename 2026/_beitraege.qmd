@@ -281,15 +281,14 @@ Der Workshop kann auf Deutsch oder Englisch durchgeführt werden.\
 *The workshop can be held in German or English, whichever you prefer.*
 :::
 
-### 12. Oktober — Manuscript Studies {#t-1012}
+### 12. Oktober — Manuscript Studies (fällt aus) {#t-1012}
 
 **Kathryn Rudy** · University of St Andrews, Scotland · [English]{.lang-badge .lang-en .content-visible when-format="html"}[Vortragssprache: Englisch]{.content-visible unless-format="html"}
 
-Der Beitrag widmet sich der Handschriftenforschung und den digitalen Zugängen zu mittelalterlichen
-Manuskripten.
-
-::: {.callout-note title="Arbeitstitel"}
-Titel und Abstract werden ergänzt, sobald sie vorliegen.
+::: {.callout-important title="Die Vorlesung vom 12. Oktober fällt aus"}
+Der Vortrag muss leider entfallen. Ob er zu einem späteren Zeitpunkt nachgeholt werden kann, ist
+noch offen; wir informieren, sobald es einen neuen Termin gibt.\
+*This lecture has been cancelled. We will announce a new date should it be rescheduled.*
 :::
 
 ### 02. November — Messunsicherheit als epistemische Ressource in den Digital Humanities {#t-1102}
