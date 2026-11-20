@@ -205,6 +205,8 @@ Fragen und Diskussion sind auf Englisch und Deutsch möglich.\
 **Workshop 16–18 Uhr: HISTMET and Annif** — mit Jona Hassenbach; Vorbereitung des
 HISTMET-Teils mit Kamyab Karimi.
 
+Materialien / Materials: [github.com/CARomein/WorkshopBern2026_HISTMET_ANNIF](https://github.com/CARomein/WorkshopBern2026_HISTMET_ANNIF)
+
 HISTMET is still under development, but it clusters historical texts by theme. Thematic metadata
 is therefore produced by a separate and deliberately auditable layer rather than by the
 embeddings. A small expert-authored co-occurrence lexicon, comprising ten categories (fiscality
